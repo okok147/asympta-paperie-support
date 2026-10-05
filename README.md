@@ -4,7 +4,7 @@ Public support, privacy, and App Store review reference pages for **Asympta Pape
 
 ## Public URLs
 
-After GitHub Pages is enabled from the `main` branch root:
+GitHub Pages is published from the `main` branch root:
 
 - Support: https://okok147.github.io/asympta-paperie-support/
 - Privacy Policy: https://okok147.github.io/asympta-paperie-support/privacy/
