@@ -1,16 +1,16 @@
 <!doctype html>
-<html lang="en">
+<html lang="zh-Hant">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="description" content="Official support page for Asympta Paperie, a handwriting notebook for iPhone and iPad.">
+  <meta name="description" content="Asympta Paperie 官方支援頁面。">
   <title>Asympta Paperie Support</title>
   <style>
     :root{color-scheme:light;--paper:#f5f0e4;--ink:#292722;--muted:#6e685f;--line:#d8d0c2;--accent:#65775f}
     *{box-sizing:border-box}
     body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.7 -apple-system,BlinkMacSystemFont,"SF Pro Text","PingFang TC",sans-serif}
-    main{width:min(760px,calc(100% - 36px));margin:auto;padding:64px 0 72px}
-    header{padding-bottom:36px;border-bottom:1px solid var(--line)}
+    main{width:min(760px,calc(100% - 36px));margin:auto;padding:48px 0 72px}
+    header{padding-bottom:30px;border-bottom:1px solid var(--line)}
     .eyebrow{font-size:.78rem;letter-spacing:.15em;text-transform:uppercase;color:var(--accent)}
     h1{font-size:clamp(2.4rem,8vw,4.8rem);line-height:1.03;letter-spacing:-.045em;margin:.2em 0}
     h2{font-size:1.15rem;margin:0 0 8px}
@@ -19,54 +19,93 @@
     a{color:var(--accent);text-underline-offset:.2em}
     .contact{margin-top:34px;padding:24px;border:1px solid var(--line);border-radius:18px;background:rgba(255,255,255,.28)}
     footer{padding-top:28px;color:var(--muted);font-size:.86rem}
+    
+    .langbar{display:flex;gap:8px;justify-content:flex-end;margin-bottom:18px}
+    .langbar button{border:1px solid var(--line);background:rgba(255,255,255,.35);color:var(--ink);border-radius:999px;padding:7px 12px;font:inherit;cursor:pointer}
+    .langbar button[aria-pressed="true"]{border-color:var(--accent);color:var(--accent)}
+    [data-lang="en"]{display:none}
+
   </style>
 </head>
 <body>
 <main>
-  <header>
-    <div class="eyebrow">Support</div>
-    <h1>Asympta Paperie</h1>
-    <p>A quiet handwriting notebook for iPhone and iPad.</p>
-  </header>
-
-  <section>
-    <h2>Writing and pages</h2>
-    <p>Use Apple Pencil for direct handwriting on supported iPad models. You can also work with notebooks, pages, covers, paper styles, stationery, and imported images using the controls provided in the app.</p>
-  </section>
-
-  <section>
-    <h2>Notebooks</h2>
-    <p>The free experience includes one notebook. The Lifetime purchase is a one-time purchase that unlocks additional notebooks. Lifetime does not auto-renew.</p>
-  </section>
-
-  <section>
-    <h2>Lifetime purchase</h2>
-    <p>Lifetime is purchased through Apple In-App Purchase. The App Store shows the final local price before confirmation. Payment and purchase authorization are handled by Apple.</p>
-    <p>If you already bought Lifetime, use <strong>Restore Purchases</strong> in Paperie to refresh the entitlement for the Apple Account currently used by the App Store.</p>
-  </section>
-
-  <section>
-    <h2>iCloud</h2>
-    <p>When iCloud synchronization is available and enabled, Paperie can keep supported notebook data in the user's iCloud environment. If content does not appear on another device, first confirm that both devices use the intended Apple Account, iCloud is enabled, and the network connection is available.</p>
-  </section>
-
-  <section>
-    <h2>Deleting or changing a notebook</h2>
-    <p>Notebook management is available from the notebook library. Deleting a notebook removes that notebook from Paperie. If iCloud synchronization is enabled, the deletion may also synchronize to other devices.</p>
-  </section>
-
-  <section>
-    <h2>Photos and stationery</h2>
-    <p>Paperie only uses photos you choose for notebook or stationery features. Avoid importing sensitive material that you do not want stored with a notebook or synchronized through your enabled cloud services.</p>
-  </section>
-
-  <div class="contact">
-    <h2>Need help?</h2>
-    <p>Email <a href="mailto:hello@everformlab.com">hello@everformlab.com</a>. Include your device model, iOS/iPadOS version, app version, and a short description of the problem. Please do not include private notebook content unless it is necessary for support.</p>
-    <p><a href="privacy/">Privacy Policy</a></p>
+  <div class="langbar" aria-label="Language">
+    <button data-set-lang="zh" aria-pressed="true">繁體中文</button>
+    <button data-set-lang="en" aria-pressed="false">English</button>
   </div>
 
-  <footer>© 2026 Ka Ho Lau · Asympta Paperie</footer>
+  <div data-lang="zh">
+    <header>
+      <div class="eyebrow">支援</div>
+      <h1>Asympta Paperie</h1>
+      <p>一款安靜、以書寫為核心的 iPhone 與 iPad 數位手帳。</p>
+    </header>
+    <section><h2>書寫、打字與搜尋</h2>
+      <p>支援 Apple Pencil 直接手寫。手指預設用於移動與縮放；只有主動選擇「書寫」時才會以手指留下筆跡。打字可顯示成手寫風格，同時保留可搜尋文字；支援系統版本上，Apple Pencil 手寫也會在背景建立可搜尋索引。</p>
+      <p>搜尋會隨輸入即時顯示相關舊內容與日期，不需要再按搜尋鍵；書寫時也可能淡淡顯示以前相關的記錄。</p>
+    </section>
+    <section><h2>筆記本</h2>
+      <p>免費版包含 <strong>2 本筆記本</strong>。Paperie 終身版是一次性購買，可解鎖無限本筆記本，不會自動續訂。</p>
+      <p>在「我的筆記本」長按既有筆記本，可以改名、調整封面顏色／封面款式與新頁面預設紙張，也可以刪除筆記本。最後一本筆記本不會被刪除。</p>
+    </section>
+    <section><h2>終身版與恢復購買</h2>
+      <p>終身版透過 Apple 的 App 內購買處理，App Store 會在確認前顯示你所在地區的最終價格。建立第 3 本或之後的筆記本時，Paperie 才會顯示終身版解鎖頁面。</p>
+      <p>如果你已購買終身版，可在解鎖頁面選擇「恢復購買」，重新整理目前 Apple Account 的購買權益。</p>
+    </section>
+    <section><h2>iCloud</h2>
+      <p>Paperie 以本機資料為主；即使沒有網路或 iCloud 暫時無法使用，仍可繼續書寫。iCloud 可用時，Paperie 會使用使用者自己的 private CloudKit 資料庫同步支援的筆記本內容。</p>
+      <p>若同一頁在多台裝置同時修改，Paperie 會保留本機版本，並把衝突的遠端版本另存成復原頁，避免靜默覆蓋手寫內容。刪除筆記本後，刪除也可能同步到其他裝置。</p>
+    </section>
+    <section><h2>文具與照片</h2>
+      <p>你可以加入貼紙、印章與自己選取的照片。長按「我的文具」中的自製素材可從文具庫移除；已經放在舊頁面上的副本會保留。</p>
+    </section>
+    <div class="contact"><h2>需要協助？</h2>
+      <p>請寄信至 <a href="mailto:hello@everformlab.com">hello@everformlab.com</a>。建議附上裝置型號、iOS/iPadOS 版本、App 版本與問題簡述；除非診斷需要，請不要附上私人手帳內容。</p>
+      <p><a href="privacy/">隱私權政策</a></p>
+    </div>
+    <footer>© 2026 Ka Ho Lau · Asympta Paperie</footer>
+  </div>
+
+  <div data-lang="en">
+    <header><div class="eyebrow">Support</div><h1>Asympta Paperie</h1><p>A quiet handwriting-first journal for iPhone and iPad.</p></header>
+    <section><h2>Writing, typing, and search</h2>
+      <p>Apple Pencil can write directly. Fingers navigate and zoom by default; finger ink is enabled only after choosing Write. Typed text can appear handwritten while staying searchable. On supported system versions, Apple Pencil handwriting is indexed for search in the background.</p>
+      <p>Search updates as you type and shows matching older context and dates without requiring a Search button. Related older memories may also appear quietly while writing.</p>
+    </section>
+    <section><h2>Notebooks</h2>
+      <p>The free experience includes <strong>2 notebooks</strong>. Paperie Lifetime is a one-time purchase that unlocks unlimited notebooks and does not auto-renew.</p>
+      <p>Long-press an existing notebook in My Notebooks to rename it, change its cover color/style and default paper for new pages, or delete it. The final remaining notebook cannot be deleted.</p>
+    </section>
+    <section><h2>Lifetime and Restore Purchases</h2>
+      <p>Lifetime is processed through Apple In-App Purchase. The App Store displays the final local price before confirmation. Paperie only presents the unlock when creating the third notebook or later.</p>
+      <p>If Lifetime was already purchased, use Restore Purchases on the Lifetime screen to refresh the entitlement for the Apple Account currently used by the App Store.</p>
+    </section>
+    <section><h2>iCloud</h2>
+      <p>Paperie is local-first, so writing continues offline or while iCloud is unavailable. When available, Paperie uses the user's private CloudKit database to synchronize supported notebook data.</p>
+      <p>If the same page changes independently on two devices, Paperie keeps the local page and preserves the conflicting remote page as a recovered page rather than silently overwriting handwriting. Notebook deletions may synchronize to other devices.</p>
+    </section>
+    <section><h2>Stationery and photos</h2>
+      <p>You can add stickers, stamps, and photos you select. Long-press a custom item in My Stationery to remove it from the library; copies already placed on older pages remain intact.</p>
+    </section>
+    <div class="contact"><h2>Need help?</h2>
+      <p>Email <a href="mailto:hello@everformlab.com">hello@everformlab.com</a>. Include your device model, iOS/iPadOS version, app version, and a short description. Please do not include private notebook content unless it is necessary for support.</p>
+      <p><a href="privacy/">Privacy Policy</a></p>
+    </div>
+    <footer>© 2026 Ka Ho Lau · Asympta Paperie</footer>
+  </div>
 </main>
+
+<script>
+(function(){
+  const buttons=[...document.querySelectorAll('[data-set-lang]')];
+  function setLang(lang){
+    document.documentElement.lang=lang==='zh'?'zh-Hant':'en';
+    document.querySelectorAll('[data-lang]').forEach(el=>el.style.display=el.dataset.lang===lang?'':'none');
+    buttons.forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.setLang===lang)));
+  }
+  buttons.forEach(b=>b.addEventListener('click',()=>setLang(b.dataset.setLang)));
+  setLang('zh');
+})();
+</script>
 </body>
 </html>
