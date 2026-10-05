@@ -12,8 +12,8 @@ This is a release gate for the App Store version that includes a **Lifetime** un
 
 ## P0 — must be true before submission
 
-- [ ] GitHub Pages is published and both public URLs return HTTP 200 without login.
-- [ ] Support page has working contact information.
+- [x] GitHub Pages is published and both public URLs return HTTP 200 without login. Verified 2026-10-06.
+- [x] Support page contains public support contact information (hello@everformlab.com).
 - [ ] Privacy Policy describes the exact production build.
 - [ ] The app contains an easily accessible Privacy Policy link.
 - [ ] The app contains a Support link.
