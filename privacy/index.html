@@ -1,9 +1,9 @@
 <!doctype html>
-<html lang="en">
+<html lang="zh-Hant">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="description" content="Privacy Policy for Asympta Paperie.">
+  <meta name="description" content="Asympta Paperie 隱私權政策。">
   <title>Asympta Paperie Privacy Policy</title>
   <style>
     :root{color-scheme:light;--paper:#f5f0e4;--ink:#292722;--muted:#6e685f;--line:#d8d0c2;--accent:#65775f}
@@ -14,77 +14,77 @@
     header{padding-bottom:30px;border-bottom:1px solid var(--line)}
     .eyebrow{font-size:.78rem;letter-spacing:.15em;text-transform:uppercase;color:var(--accent)}
     h1{font-size:clamp(2.2rem,7vw,4.2rem);line-height:1.06;letter-spacing:-.04em;margin:.2em 0}
-    h2{font-size:1.15rem;margin:0 0 8px}
-    p,li{color:var(--muted)}
-    section{padding:24px 0;border-bottom:1px solid var(--line)}
-    ul{padding-left:1.25rem}
+    h2{font-size:1.15rem;margin:0 0 8px} p,li{color:var(--muted)}
+    section{padding:24px 0;border-bottom:1px solid var(--line)} ul{padding-left:1.25rem}
     footer{padding-top:28px;color:var(--muted);font-size:.86rem}
+    
+    .langbar{display:flex;gap:8px;justify-content:flex-end;margin-bottom:18px}
+    .langbar button{border:1px solid var(--line);background:rgba(255,255,255,.35);color:var(--ink);border-radius:999px;padding:7px 12px;font:inherit;cursor:pointer}
+    .langbar button[aria-pressed="true"]{border-color:var(--accent);color:var(--accent)}
+    [data-lang="en"]{display:none}
+
   </style>
 </head>
 <body>
 <main>
-  <p><a href="../">← Support</a></p>
-  <header>
-    <div class="eyebrow">Privacy</div>
-    <h1>Asympta Paperie Privacy Policy</h1>
-    <p>Effective and last updated: October 6, 2026</p>
-  </header>
+  <div class="langbar"><button data-set-lang="zh" aria-pressed="true">繁體中文</button><button data-set-lang="en" aria-pressed="false">English</button></div>
 
-  <section>
-    <h2>Overview</h2>
-    <p>Asympta Paperie is designed to keep journal content under the user's control. The current release does not use advertising SDKs or third-party behavioral tracking. Paperie does not sell personal information.</p>
-  </section>
+  <div data-lang="zh">
+    <p><a href="../">← 支援</a></p>
+    <header><div class="eyebrow">隱私</div><h1>Asympta Paperie 隱私權政策</h1><p>生效及最後更新：2026 年 10 月 6 日</p></header>
+    <section><h2>概覽</h2><p>Asympta Paperie 以使用者控制自己的手帳內容為設計原則。目前版本不使用廣告 SDK 或第三方行為追蹤，也不出售個人資訊。</p></section>
+    <section><h2>手帳資料</h2><p>內容可能包含手寫筆跡、文字、筆記本與頁面名稱、封面與紙張選擇、貼紙、印章、繪圖，以及你主動加入的圖片。資料先儲存在裝置上；iCloud 可用時，也可能儲存在你的 private CloudKit 資料庫，用於跨裝置同步。</p></section>
+    <section><h2>手寫搜尋</h2><p>在支援的系統版本上，Paperie 會在裝置上使用 Apple 提供的手寫辨識能力建立搜尋索引。辨識不會把你的筆跡替換成可見文字，也不會把手帳內容傳給廣告或第三方行為分析服務。</p></section>
+    <section><h2>iCloud</h2><p>Paperie 使用 Apple iCloud / CloudKit 進行同步與復原。同步採 local-first：本機先保存，再由背景同步。Apple 依其條款與隱私政策處理相關雲端資料。</p></section>
+    <section><h2>照片</h2><p>只有當你主動選取照片或圖片加入手帳／文具時，Paperie 才會處理該項目。副本可能與 Paperie 資料一起保存，並在 iCloud 同步可用時同步。</p></section>
+    <section><h2>購買</h2><p>可選的 Paperie 終身版由 Apple 透過 StoreKit 與 App Store 處理。Paperie 只使用購買權益資訊判斷是否解鎖功能；開發者不會從 Apple 取得完整付款卡資料。</p></section>
+    <section><h2>支援信件</h2><p>如果你寄信聯絡支援，你的電子郵件地址、訊息與主動附上的檔案會由相關電子郵件服務處理，用於回覆與合理後續。除非診斷需要，請不要寄送私人手帳內容。</p></section>
+    <section><h2>保存與刪除</h2><ul>
+      <li>本機 Paperie 資料會保留到你刪除相關內容或移除 App（另受裝置備份機制影響）。</li>
+      <li>iCloud 同步啟用時，已同步副本會保留在你的 iCloud，直到透過 App 或 Apple 提供的資料管理方式刪除。</li>
+      <li>刪除筆記本可同步到其他裝置；衝突合併可能建立復原頁，以避免靜默遺失不同裝置上的有效手寫內容。</li>
+      <li>支援往來只在處理請求、合理後續、安全或法規需要的期間保留。</li>
+    </ul></section>
+    <section><h2>你的選擇</h2><p>你可以選擇是否匯入照片，並可在 Apple 系統設定管理 iCloud 與 App 權限。你可以在 Paperie 刪除筆記本，也可使用「恢復購買」重新整理可恢復的終身版權益。</p></section>
+    <section><h2>政策變更</h2><p>如果 Paperie 的資料處理方式改變，本政策會更新，確保內容仍正確描述實際 shipping App。</p></section>
+    <section><h2>聯絡方式</h2><p>隱私相關問題請寄信至 <a href="mailto:hello@everformlab.com">hello@everformlab.com</a>。</p></section>
+    <footer>© 2026 Ka Ho Lau · Asympta Paperie</footer>
+  </div>
 
-  <section>
-    <h2>Notebook data</h2>
-    <p>Notebook content can include handwriting, text, notebook and page names, cover and paper choices, stationery, drawings, and images you choose to add. This content is stored on your device and, when iCloud synchronization is enabled and available, may also be stored in your iCloud environment so supported content can synchronize across your devices.</p>
-  </section>
-
-  <section>
-    <h2>iCloud</h2>
-    <p>Paperie may use Apple iCloud or CloudKit services for synchronization and recovery. Apple processes the related cloud data under Apple's terms and privacy policies. Paperie does not use notebook content for advertising or behavioral profiling.</p>
-  </section>
-
-  <section>
-    <h2>Photos</h2>
-    <p>When you choose to import a photo or image for a notebook or stationery feature, Paperie processes the item for the feature you requested. A copy may be stored with Paperie data and may synchronize through iCloud when synchronization is enabled. Paperie does not use imported images for advertising.</p>
-  </section>
-
-  <section>
-    <h2>Purchases</h2>
-    <p>The optional Lifetime unlock is processed by Apple through StoreKit and the App Store. Paperie uses purchase entitlement information to determine whether Lifetime features should be unlocked. The developer does not receive your full payment-card details from Apple.</p>
-  </section>
-
-  <section>
-    <h2>Support email</h2>
-    <p>If you contact support, your email address, message, and anything you voluntarily attach are processed by the email services involved and are used to respond to the support request. Do not send private notebook content unless it is needed to diagnose the issue.</p>
-  </section>
-
-  <section>
-    <h2>Retention and deletion</h2>
-    <ul>
+  <div data-lang="en">
+    <p><a href="../">← Support</a></p>
+    <header><div class="eyebrow">Privacy</div><h1>Asympta Paperie Privacy Policy</h1><p>Effective and last updated: October 6, 2026</p></header>
+    <section><h2>Overview</h2><p>Asympta Paperie is designed to keep journal content under the user's control. The current release does not use advertising SDKs or third-party behavioral tracking and does not sell personal information.</p></section>
+    <section><h2>Notebook data</h2><p>Content may include handwriting, text, notebook/page names, cover and paper choices, stationery, drawings, and images you add. Data is stored locally first and, when iCloud is available, may also be stored in your private CloudKit database for synchronization.</p></section>
+    <section><h2>Handwriting search</h2><p>On supported system versions, Paperie uses Apple-provided on-device handwriting recognition to build a search index. Recognition does not replace visible handwriting and journal content is not sent to advertising or third-party behavioral analytics services.</p></section>
+    <section><h2>iCloud</h2><p>Paperie uses Apple iCloud / CloudKit for synchronization and recovery. Sync is local-first: local persistence completes before background cloud work. Apple processes related cloud data under Apple's terms and privacy policies.</p></section>
+    <section><h2>Photos</h2><p>Paperie processes photos/images only when you choose them for a notebook or stationery feature. A copy may be stored with Paperie data and synchronized through iCloud when available.</p></section>
+    <section><h2>Purchases</h2><p>Paperie Lifetime is processed by Apple through StoreKit and the App Store. Paperie uses entitlement information only to determine feature access. The developer does not receive full payment-card details from Apple.</p></section>
+    <section><h2>Support email</h2><p>If you contact support, your email address, message, and voluntary attachments are processed by the email services involved and used to respond. Do not send private notebook content unless needed to diagnose the issue.</p></section>
+    <section><h2>Retention and deletion</h2><ul>
       <li>Local Paperie data remains until you delete the relevant content or remove the app, subject to device backup behavior.</li>
-      <li>If iCloud synchronization is enabled, synchronized copies may remain in iCloud until deleted through the app or the applicable Apple data-management mechanisms.</li>
-      <li>Support correspondence is retained only as needed to handle the request, reasonable follow-up, security, or legal obligations.</li>
-    </ul>
-  </section>
-
-  <section>
-    <h2>Your choices</h2>
-    <p>You can choose whether to import photos and whether to use available cloud features. You can delete notebooks from Paperie. You can manage iCloud and app permissions in Apple system settings. Restorable Lifetime purchases can be refreshed using Restore Purchases in the app.</p>
-  </section>
-
-  <section>
-    <h2>Changes to this policy</h2>
-    <p>If Paperie's data practices change, this policy will be updated so that it continues to describe the shipping app accurately.</p>
-  </section>
-
-  <section>
-    <h2>Contact</h2>
-    <p>For privacy questions or requests concerning information controlled by the developer, contact <a href="mailto:hello@everformlab.com">hello@everformlab.com</a>.</p>
-  </section>
-
-  <footer>© 2026 Ka Ho Lau · Asympta Paperie</footer>
+      <li>When iCloud synchronization is enabled, synchronized copies may remain in your iCloud until deleted through the app or applicable Apple data-management mechanisms.</li>
+      <li>Notebook deletion may synchronize to other devices; conflict merging can create recovered pages to avoid silently losing valid handwriting from different devices.</li>
+      <li>Support correspondence is retained only as needed for the request, reasonable follow-up, security, or legal obligations.</li>
+    </ul></section>
+    <section><h2>Your choices</h2><p>You can choose whether to import photos and manage iCloud/app permissions in Apple system settings. You can delete notebooks in Paperie and refresh restorable Lifetime entitlements with Restore Purchases.</p></section>
+    <section><h2>Changes</h2><p>If Paperie's data practices change, this policy will be updated so it continues to describe the shipping app accurately.</p></section>
+    <section><h2>Contact</h2><p>For privacy questions, contact <a href="mailto:hello@everformlab.com">hello@everformlab.com</a>.</p></section>
+    <footer>© 2026 Ka Ho Lau · Asympta Paperie</footer>
+  </div>
 </main>
+
+<script>
+(function(){
+  const buttons=[...document.querySelectorAll('[data-set-lang]')];
+  function setLang(lang){
+    document.documentElement.lang=lang==='zh'?'zh-Hant':'en';
+    document.querySelectorAll('[data-lang]').forEach(el=>el.style.display=el.dataset.lang===lang?'':'none');
+    buttons.forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.setLang===lang)));
+  }
+  buttons.forEach(b=>b.addEventListener('click',()=>setLang(b.dataset.setLang)));
+  setLang('zh');
+})();
+</script>
 </body>
 </html>
