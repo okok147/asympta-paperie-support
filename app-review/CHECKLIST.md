@@ -80,3 +80,5 @@ See `REVIEW_NOTES_TEMPLATE.md`.
 - Paid Apps Agreement: https://developer.apple.com/help/app-store-connect/manage-agreements/sign-and-update-agreements
 - Required-reason APIs: https://developer.apple.com/documentation/bundleresources/describing-use-of-required-reason-api
 - Third-party SDK requirements: https://developer.apple.com/support/third-party-SDK-requirements/
+- Family Sharing for IAP: https://developer.apple.com/help/app-store-connect/configure-in-app-purchase-settings/turn-on-family-sharing-for-in-app-purchases
+- App privacy details: https://developer.apple.com/app-store/app-privacy-details/
