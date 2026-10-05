@@ -26,6 +26,7 @@ This is a release gate for the App Store version that includes a **Lifetime** un
 - [ ] The first Non-Consumable IAP is added to the **same App Review submission as the new app version**.
 - [ ] Reviewer can reach the Lifetime offer without hidden gestures.
 - [ ] StoreKit returns and displays the localized price; no hard-coded storefront price.
+- [ ] Decide deliberately whether Lifetime should use Family Sharing **before enabling it**. Apple says Family Sharing for an IAP cannot be turned off after it is enabled.
 - [ ] Successful purchase unlocks Lifetime immediately.
 - [ ] Cancelled, failed, and pending purchases do not falsely unlock Lifetime.
 - [ ] A visible **Restore Purchases** action restores the Non-Consumable entitlement.
