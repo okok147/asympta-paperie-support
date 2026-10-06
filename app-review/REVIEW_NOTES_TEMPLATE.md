@@ -1,6 +1,6 @@
 # App Review Notes Template — Asympta Paperie
 
-Use this as a starting point. Replace every bracketed item before submission.
+Current production-candidate notes. Re-verify the exact submitted build before submission.
 
 ---
 
@@ -13,33 +13,36 @@ No account or sign-in is required to use the core app.
 Product: **Paperie Lifetime**
 Type: **Non-Consumable**
 
-The free experience includes one notebook. Lifetime is a one-time purchase that unlocks additional notebooks. It is not a subscription and does not auto-renew.
+The free experience includes 2 notebooks. Lifetime is a one-time purchase that unlocks unlimited notebooks. It is not a subscription and does not auto-renew.
 
 To review the purchase:
 
 1. Launch Paperie.
-2. [EXACT PATH TO LIFETIME SCREEN]
-3. Select **Paperie Lifetime**.
-4. The purchase sheet is presented by StoreKit.
-5. After a successful purchase, additional notebooks become available immediately.
+2. Open **Notebooks / 我的筆記本**.
+3. If only one notebook exists, choose **New notebook / 新增筆記本** and create the second free notebook.
+4. Choose **New notebook / 新增筆記本** again. The **Paperie Lifetime** sheet appears before notebook 3 is created.
+5. Select **Unlock Lifetime / 解鎖終身版**. The purchase sheet is presented by StoreKit.
+6. After a successful verified transaction, unlimited notebooks are available immediately.
 
 To restore a previous purchase:
 
-1. [EXACT PATH TO RESTORE PURCHASES]
-2. Select **Restore Purchases**.
-3. Paperie refreshes the App Store entitlement and updates the UI.
+1. Follow the same path to the **Paperie Lifetime** sheet.
+2. Select **Restore Purchases / 恢復購買**.
+3. Paperie calls AppStore.sync(), refreshes the current entitlement, and updates the UI.
 
 No external payment mechanism is used for this digital unlock.
 
 ## iCloud
 
-[STATE EXACTLY HOW ICLOUD IS ENABLED AND WHAT SYNCS IN THIS BUILD.]
+Paperie is local-first. Notebook data is saved to local SQLite before any cloud work. When the user's iCloud account is available, Paperie uses the private CloudKit database to synchronize the notebook library snapshot, including pages, PencilKit drawings, typed text, stamps, stickers, cover appearance, and paper settings. The Page menu shows a quiet sync state and a **Sync now / 立即同步** retry action.
 
-The app remains usable when iCloud is unavailable; [VERIFY THIS SENTENCE BEFORE SUBMISSION].
+The app remains usable when iCloud is unavailable. Divergent edits use a three-way merge; conflicting remote pages are preserved as recovered pages instead of silently replacing local handwriting.
 
 ## Permissions
 
-[LIST ONLY PERMISSIONS THAT APPEAR IN THE SHIPPING BUILD AND EXPLAIN WHY EACH IS USED.]
+- **Photos:** Paperie uses Apple's system PhotosPicker only when the user explicitly chooses an image for personal stationery. It does not request broad photo-library access.
+- **iCloud:** CloudKit uses the user's Apple iCloud account for private database synchronization. No Paperie account or sign-in is required.
+- No advertising, tracking, microphone, camera, location, contacts, or health permission is used by the current build.
 
 ## Review contact
 
@@ -49,4 +52,4 @@ Privacy Policy: https://okok147.github.io/asympta-paperie-support/privacy/
 
 ---
 
-Before using these notes, verify every path and statement against the exact submitted build.
+Before submission, verify these paths once more on the exact submitted TestFlight/App Store build. No private reviewer credentials are required.
