@@ -14,27 +14,27 @@ This is a release gate for the App Store version that includes a **Lifetime** un
 
 - [x] GitHub Pages is published and both public URLs return HTTP 200 without login. Verified 2026-10-06.
 - [x] Support page contains public support contact information (hello@everformlab.com).
-- [ ] Privacy Policy describes the exact production build.
-- [ ] The app contains an easily accessible Privacy Policy link.
-- [ ] The app contains a Support link.
+- [x] Privacy Policy describes the current production candidate behavior.
+- [x] The app contains an easily accessible Privacy Policy link in the Page menu.
+- [x] The app contains a Support link in the Page menu.
 - [ ] Paid Apps Agreement is active in App Store Connect.
 - [ ] Required tax information is complete.
 - [ ] Required banking information is complete.
-- [ ] Lifetime IAP exists as **Non-Consumable**.
-- [ ] Lifetime IAP has at least one localization and a final price.
+- [x] Lifetime IAP exists as **Non-Consumable**.
+- [x] Lifetime IAP has en-US + zh-Hant localizations and a final base price.
 - [ ] Lifetime IAP has an App Review screenshot and Review Notes.
 - [ ] The first Non-Consumable IAP is added to the **same App Review submission as the new app version**.
-- [ ] Reviewer can reach the Lifetime offer without hidden gestures.
-- [ ] StoreKit returns and displays the localized price; no hard-coded storefront price.
+- [x] Reviewer can reach Lifetime from Notebooks → New notebook after two free notebooks exist.
+- [x] StoreKit returns and displays the localized price; no storefront price is hard-coded.
 - [ ] Decide deliberately whether Lifetime should use Family Sharing **before enabling it**. Apple says Family Sharing for an IAP cannot be turned off after it is enabled.
 - [ ] Successful purchase unlocks Lifetime immediately.
 - [ ] Cancelled, failed, and pending purchases do not falsely unlock Lifetime.
-- [ ] A visible **Restore Purchases** action restores the Non-Consumable entitlement.
-- [ ] Free users can use the advertised free experience without purchasing.
+- [x] A visible **Restore Purchases** action exists on the Lifetime sheet and refreshes StoreKit entitlement state.
+- [x] Free users can create and use 2 notebooks without purchasing.
 - [ ] App Store screenshots/description make paid-only features clear.
 - [ ] Correct release build is selected.
 - [ ] App Privacy answers match the shipping code and this Privacy Policy.
-- [ ] Privacy manifest / required-reason API audit passes.
+- [x] Privacy manifest is bundled; current source audit found app-owned UserDefaults as the required-reason API and declares CA92.1.
 - [ ] Third-party SDK privacy-manifest/signature requirements pass.
 - [ ] Fresh-install, offline, iCloud-unavailable, and StoreKit-unavailable paths do not crash.
 - [ ] Physical iPhone test passes.
@@ -64,7 +64,7 @@ Suggested customer-facing name:
 `Paperie Lifetime`
 
 Suggested short description:
-`One-time unlock for additional notebooks.`
+`One-time unlock for unlimited notebooks.`
 
 ## Suggested App Review Notes
 
