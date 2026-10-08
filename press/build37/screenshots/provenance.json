@@ -1,0 +1,713 @@
+{
+  "qualification": "user-authorized-beta-round37",
+  "beta_scope": {
+    "qualification": "user-authorized-beta-round37",
+    "authorization": "maybe you just push to main and distirbute to testflight and let me check",
+    "authorization_date": "2026-10-09 Asia/Hong_Kong",
+    "appReviewAuthorized": false,
+    "unfiltered_final_qualification": false,
+    "runs": {
+      "phone": {
+        "label": "round37-beta-phone-r2",
+        "filters": [
+          "AsymptaPaperieUITests/JournalFlowTests/testAppStoreCreativeCaptures",
+          "AsymptaPaperieUITests/JournalFlowTests/testAppStoreTraditionalChineseCaptures",
+          "AsymptaPaperieUITests/JournalFlowTests/testMemoryTucksBetweenLeavesOpensOnDemandRemovesUndoesAndReopens",
+          "AsymptaPaperieUITests/JournalFlowTests/testFiniteBookFinalBlankLeafClosesToInnerBackAndReturnsWithoutGrowing"
+        ]
+      },
+      "ipad": {
+        "label": "round37-beta-ipad-captures",
+        "filters": [
+          "AsymptaPaperieUITests/JournalFlowTests/testAppStoreCreativeCaptures",
+          "AsymptaPaperieUITests/JournalFlowTests/testAppStoreTraditionalChineseCaptures",
+          "AsymptaPaperieUITests/JournalFlowTests/testMemoryTucksBetweenLeavesOpensOnDemandRemovesUndoesAndReopens",
+          "AsymptaPaperieUITests/JournalFlowTests/testFiniteBookFinalBlankLeafClosesToInnerBackAndReturnsWithoutGrowing"
+        ]
+      }
+    },
+    "core": {
+      "label": "round37-beta-core-phone",
+      "filters": [
+        "AsymptaPaperieTests",
+        "AsymptaPaperieUITests/JournalFlowTests/testPhoneWriteWorksImmediatelyAndFlippingKeepsInkUnchanged"
+      ]
+    },
+    "additional_verification": {
+      "ipad": "round37-beta-ipad: four workflows passed; wider native ink flow failed its screenshot baseline-frame assertion. Preserved result; not full qualification."
+    }
+  },
+  "capture_policy": "only-passed-test-cases; mixed-run-failures-preserved",
+  "schema_version": 3,
+  "version": "1.0",
+  "build": "37",
+  "tested_commit": "75011ab1491ccf8543af571b4c134db72adc4685",
+  "source_files": {
+    "AsymptaPaperie.xcodeproj/project.pbxproj": "c30f3ac595a5a80cb8e75f04571f854a7454f9bd4c8ce61358efdbaae13562bc",
+    "AsymptaPaperie.xcodeproj/project.xcworkspace/contents.xcworkspacedata": "7f3b00b5c3fdb45242d7b87e1e5c4e25d1fa8129a16c94295ecc4e8ea2235c5f",
+    "AsymptaPaperie.xcodeproj/xcshareddata/xcschemes/AsymptaPaperie.xcscheme": "c19858b2c8debab9c7697db1c4ca866f74bbdef704adb33ba35edd9e99a6ade2",
+    "AsymptaPaperieTests/BookMemoryTests.swift": "740e22881ad1c0ac4279d3fc6832a2a1fef0b65f1610fac4b3c9ad8e92eb63c8",
+    "AsymptaPaperieTests/FiniteBookTests.swift": "fbe541e6294fd4d7a5dddf8017da607d52570f50d2a8e89bbe3fc76896dfec85",
+    "AsymptaPaperieTests/IncrementalAndCropTests.swift": "335d29a71e00c5a039e2359a3c7b3450ed4b7bbd66756ddb9830640dc4501f57",
+    "AsymptaPaperieTests/JournalIndexTests.swift": "ae53ddfa32f6c4ee4ad808c73754dbcc87fec2ecc09b98eee5a986cbddb5c100",
+    "AsymptaPaperieTests/JournalPersistenceTests.swift": "95fb035de78467e2992a896f9ae55256cf5cdb711fab71754437d6e969a6a223",
+    "AsymptaPaperieTests/NotebookCraftTests.swift": "24135178996f40364816768614444f240fb8fff11606b40bd9b8a268145fe6c5",
+    "AsymptaPaperieTests/NotebookSpreadTests.swift": "881a00e1d91bf7ebdf030b04cb080c1185e30aa45860f517aaaba15e25a032b9",
+    "AsymptaPaperieTests/PageCurlTests.swift": "14eb83706d8860481becb40799c3e9665f97be44b0f0d2cad9e7dd2ee1f4653d",
+    "AsymptaPaperieTests/SpreadPlacementTests.swift": "aa9f7b8bab49a0e169a63cd4fcb19c5e4a3691866e90020ef664d1b7cafeadd0",
+    "AsymptaPaperieTests/StampTests.swift": "3e81ca6345273181efb271fba8e68ef90704197a4356cf4dbf3fe89433cfd4fb",
+    "AsymptaPaperieTests/StickerLibraryTests.swift": "69f4f1a9f46284fadebf526f77079a59cfb1668038148116db95f84e12b5029e",
+    "AsymptaPaperieTests/StickerStudioTests.swift": "6727f8edfc25de2e4630c01f475569dead389183283e87b1c4b8155961359040",
+    "AsymptaPaperieUITests/JournalFlowTests.swift": "eb1e94198c9f28fc9abe3e19fc614cfb25082bea1f8a5db08e834f78df86097e",
+    "Paperie/App/AsymptaPaperieApp.swift": "50f15d1cd4734a5417f3cc8194d322ad3e1a3775f58aff845f8c86ae9324c026",
+    "Paperie/App/ContentView.swift": "57cef72cf2ac07990b9531f1216215f210671274551b604c1941b4766d3445bc",
+    "Paperie/Assets.xcassets/AccentColor.colorset/Contents.json": "8dc55a201f56a5687b7df76f819116ce728b33e4c7ef8e2d67b4da95f2e08578",
+    "Paperie/Assets.xcassets/AppIcon.appiconset/AppIcon-1024.png": "cf162f74513e0f149fc985a3f25f1c7a43075eaafe7573dc6d42741829d06490",
+    "Paperie/Assets.xcassets/AppIcon.appiconset/Contents.json": "74681cdc9b2ec49a25ccb5a68632e7fcb8150e14a1153af51e0e4713449b6ade",
+    "Paperie/Assets.xcassets/AppIcon.appiconset/icon-20.png": "3cb92b05b191e33258312e4f7100472c0d9ca4f1f8400ea75d167611914ad302",
+    "Paperie/Assets.xcassets/AppIcon.appiconset/icon-20@2x.png": "43daeaa1ac724e08f74aeebf5e6be877123783a459ef44b6049a4c0389ab3b72",
+    "Paperie/Assets.xcassets/AppIcon.appiconset/icon-20@3x.png": "e138a3fefa7fd165fc5876ad8d8b0e1d83fc502b784e82edc541ad1912bf3433",
+    "Paperie/Assets.xcassets/AppIcon.appiconset/icon-29.png": "7de394ea30e542e96e05279c1efc0a62fe5580f63eaeea672461241b8e250ec1",
+    "Paperie/Assets.xcassets/AppIcon.appiconset/icon-29@2x.png": "4d1b3f5de6f80d9f2494ffd6879cd50f1e1b8b56f761c40c7f29cf56d771e46c",
+    "Paperie/Assets.xcassets/AppIcon.appiconset/icon-29@3x.png": "9bda24c7df2c1624d24ad4529a1f1e2f61861ec171775d15643720453b5fc017",
+    "Paperie/Assets.xcassets/AppIcon.appiconset/icon-40.png": "43daeaa1ac724e08f74aeebf5e6be877123783a459ef44b6049a4c0389ab3b72",
+    "Paperie/Assets.xcassets/AppIcon.appiconset/icon-40@2x.png": "ccaec8895623612d532dbce34921dd7c270e811e2211d02c2c1c1143f8a4c589",
+    "Paperie/Assets.xcassets/AppIcon.appiconset/icon-40@3x.png": "c7f72cfaa0c0843a0721dd5b1043cfce97ee5f65d2d135147c2d8f509885f14e",
+    "Paperie/Assets.xcassets/AppIcon.appiconset/icon-60@2x.png": "c7f72cfaa0c0843a0721dd5b1043cfce97ee5f65d2d135147c2d8f509885f14e",
+    "Paperie/Assets.xcassets/AppIcon.appiconset/icon-60@3x.png": "9ab9188e20829f2b0aea4becc13a38cda35f4185bbc2900adaf3ec397ecc3265",
+    "Paperie/Assets.xcassets/AppIcon.appiconset/icon-76.png": "dacd2b2cb3076e4f95512fe72e974b0aa3d0e5cb2df357ca181c0df30a388b24",
+    "Paperie/Assets.xcassets/AppIcon.appiconset/icon-76@2x.png": "4397f02de9963ca2c3ce6110bb8962a95c5ae4eb1efebc961b8e4251b6d80830",
+    "Paperie/Assets.xcassets/AppIcon.appiconset/icon-83.5@2x.png": "b0d6c74a05274848eba403a5d28b60f1bbdd475c7af484286d2e81a6398a6e6a",
+    "Paperie/Assets.xcassets/Contents.json": "81c54324c918dd55789178a4a2d951210270d905af16c1428f6192d454f76c8f",
+    "Paperie/AsymptaPaperie.entitlements": "99be063725696cf4dd762aa74671ed74179139dc71e9deefe4534c01732f31b5",
+    "Paperie/Canvas/FingerPageEdge.swift": "a3840bc5dd2c6a9e1bd4a7aaab64b750671d5104dd0edad06ae7245d42b97816",
+    "Paperie/Canvas/PencilCanvas.swift": "a88ad1cd1865936754ddcd134f8c0f27b9b2de914affefcbd17d3e1dff35dec1",
+    "Paperie/CloudKitSchema.ckdb": "637abad96bb7ce1015482f3eabd12ba244bb475f770f0527a38770da88a089f5",
+    "Paperie/Info.plist": "681d6b12787498f06a74d0c0c012e625c7800ff6c36994efbdb1e16a4adabd0e",
+    "Paperie/Models/BackupMerge.swift": "7d8d5740c0d379de409dfda687b646502ae4b164d950ec111c408600f4431387",
+    "Paperie/Models/BackupType.swift": "026360ab382f1a64358dc1f399abb08459108b1dca79522ae76cc7c919377ec4",
+    "Paperie/Models/BookMemory.swift": "36a2fcd8d24f39d1119e96e04b6157e9478f2d9c0a0f0eaff01233da032e46ba",
+    "Paperie/Models/JournalIndex.swift": "c3a18094ac9a82b40930fe28abadb723a32a2d94e9356e15a9ff7c9cb03c6786",
+    "Paperie/Models/JournalViewport.swift": "ba60433b0a111eedeaa0e66711ef82ffb1fddadaec2c250f8bf933739a4f20ed",
+    "Paperie/Models/NotebookSpread.swift": "dc95d4d23b18ebfdd297b7d520bf276d2fc3288eada5974666e82fee6a6cf075",
+    "Paperie/Models/PaperieLanguage.swift": "3b5eab2b7e4083d958c19298632e26baedc828602766ca013919ec2f0b391e9d",
+    "Paperie/Models/StampImprint.swift": "985be35e455aeb7274300d2479cc636f173c44dff6fd8e09e4fbe5e729ef1fcc",
+    "Paperie/Models/StickerCrop.swift": "135b6f0d27975f0964edeb4d9302d6f08373ac08e65ba64d5e352bb0fbf96fd2",
+    "Paperie/Models/StickerItem.swift": "8e4ba9ad668cb309102f8b05fb787200dc73a7438413d20da51f47ce238b79f0",
+    "Paperie/Models/StickerOutline.swift": "92a5ef812b0280a7326067737dd735d4c08b64afb1c2991db23cee2a0e75e88e",
+    "Paperie/Resources/LXGWWenKaiTC-OFL.txt": "1a13783bf4337242834b60309cdcdbeb566ae3f923576fdbba8b78db9d174def",
+    "Paperie/Resources/LXGWWenKaiTC-Regular.ttf": "b1a0795862c1415bf3f393ea50b2a4ea6275012cf5bad3f94feeb1222f555731",
+    "Paperie/Resources/PAGE_TURN_CREDITS.txt": "8059bdd18f956316f36724771ef6885ff0af2f2960f4e50c0a572887d014b734",
+    "Paperie/Resources/PrivacyInfo.xcprivacy": "5c20dbcb4ab17c390d6c89c0d6c7f7a274f377c2304159f01bb2ebb88a2cd069",
+    "Paperie/Resources/bird-branch-ink-original.png": "d8f084a2a1bcb14256b22ecd5ffa17e1352e55cd5e0cc70882452ff8165885fb",
+    "Paperie/Resources/bird-branch-wood-rubber-original.png": "afbe8a284014640fa34628c7ab9b0f1d0c0ca0c459e6850e4163476e8efe0907",
+    "Paperie/Resources/cotton-paper-neutral.png": "52ef25d3a23c833be5470f7b0dbfacf46c2f4e9bb8dd7f5f920bbde9d91c9ff3",
+    "Paperie/Resources/crayon-british-shorthair.png": "6c688ae7fb51bc83847ae9a6445e69981d077606a48047995212ccadf2c5be89",
+    "Paperie/Resources/crayon-corgi.png": "4cf73c4b93bfcbf1b409c2c3698e5031276d0d5f62c6c2a4e4a1005fe1944496",
+    "Paperie/Resources/crayon-schnauzer.png": "abb46aa2b779d10d9bc7f2c4c2ba938404c00df2d2353b4f0e9946516a601513",
+    "Paperie/Resources/crayon-siamese.png": "1734b5d718d8d2d5bddda2cb3db80e0a56e9729a62a08a76e3ffc186e4969720",
+    "Paperie/Resources/en.lproj/Localizable.strings": "2eb2ace4fa6cff31fbfcb8663b2bdcbbe057efcdcfc7251ec5ab9b55809c150b",
+    "Paperie/Resources/kraft-fiber.jpg": "bd3dcade0f836070adb05f05b5946fce4d625512b5d511a5fe29ca1b30d06f5d",
+    "Paperie/Resources/leather-tan.png": "ca07041151a0560363518b710b35636538292e3ecf9747ae61e45411b5ff58a2",
+    "Paperie/Resources/page-turn.wav": "b0993243a1b45029e3176a49c89bb466c24bafb7d6ca805e8d29683081d7d500",
+    "Paperie/Resources/parchment-vellum.png": "684c83fa1d3f348c89130f259e8fe4c00e4719e227baa28362793d963dae1b89",
+    "Paperie/Resources/pressed-hydrangea.png": "552f161129fe199435df15b1e154aba275e2078d6d62217c3937ad601a531760",
+    "Paperie/Resources/soft-crayon-paper.jpg": "e32744f5e8d7552edf878560430f0e2e4f18af3ad746ab205d91a8a2f499de17",
+    "Paperie/Resources/sticker-peel.wav": "2d2b99ca973dcde848042b04cb6694fce5eaacd28797e4dec33b91f0f6229ce6",
+    "Paperie/Resources/tactile-bunny-memo.png": "5339dd963e05474cf58612d994f6df21ea1352f1bc86fa74f7ac97fe03e68485",
+    "Paperie/Resources/tactile-pear-hedgehog.png": "095b380deb58ebf9fd37d29f19631a1b05c3b5626246924142d83673c85cd21f",
+    "Paperie/Resources/tactile-post-dog.png": "9b31dab2df3606e4de2cebcf5265531d25e7f59d5ee70013c6cfcf93ac3749b4",
+    "Paperie/Resources/tactile-teacup-cat.png": "30554cc4d4ef7bc80c72ffb86aba971a5ebbe56316c1a9bd5d68953873e40122",
+    "Paperie/Resources/washi-dots.png": "973f0d63a96ed6a66299ffbb7096d1271df05100c097ae5ebe6aca2542020f2d",
+    "Paperie/Resources/washi-indigo.png": "f14f5516c72d6c86174809e2feda815a772d782621fe1ad3c3a294c4e9080af7",
+    "Paperie/Resources/washi-leaves.png": "fa1597a8d5896480e5022d90c96cdf1b72dc2dad38392d8a85927959d411cbe2",
+    "Paperie/Resources/watercolor-cat.png": "802fe3dd25f1703ef6b2b1dba0fc7f3dfee9be4d2e281610002628adae23145d",
+    "Paperie/Resources/watercolor-coffee.png": "2206e293c595fedbc15c9c1b3b6fce2beae9319557ec7b2d856ca30cb14d4bec",
+    "Paperie/Resources/watercolor-leaf.png": "33935f895b62d4c95c912fafe84a826bdd98b5796735de364c2aadb84d0863d5",
+    "Paperie/Resources/watercolor-moon.png": "b33b4dadd23acd990e224d11252e3524aad1dfe9912e6701b3e71d97d4ab7ec6",
+    "Paperie/Resources/watercolor-rain.png": "6d7c5801b136e6c7c66d7ee050d8b68c05f6b6641bac3af11a3b7dda9aba7172",
+    "Paperie/Resources/white-table.jpg": "a7f9b88a68a1649fdaa01fdf2dbd0d599537f29b1b36d0c33373aac474b6bd49",
+    "Paperie/Resources/zh-Hant.lproj/Localizable.strings": "51ba2f542d7f2fbe8675f289552e1d9cfab0a2ebfa1acc94c58f4bd35ca080d9",
+    "Paperie/Storage/JournalDatabase.swift": "4e57c269ea213da9d7e0127dbfa991d17e6f8d139298047505bcbc25ead50f0d",
+    "Paperie/Storage/JournalRepository.swift": "4d9f306344554452f895da1a1c8ff1cf603e7ff1746c1f515ef0d96f0214be30",
+    "Paperie/Storage/JournalStore.swift": "7da089f60439d4308230f63c4c032d9dd8af3bc1d19a2c289d17f5164ffe7bee",
+    "Paperie/Storage/StarterContent.swift": "e3702a50766612a7212b74df5ca099587c0e9abc98334451a3a126a375f5503e",
+    "Paperie/Views/BookGroundLight.swift": "1c2592da03b138c648183d98fe670abc382c8beff8b82980b9d010816b69a46d",
+    "Paperie/Views/BookMemories.swift": "ee794f0d9fbf7ac9434cddc1b505e74b8972e997257a03dbbcd87fb1768a150f",
+    "Paperie/Views/DeskObjects.swift": "f070d96dd14f0fff6a2d4acae02cc551e63ec875424b8d90246189a49ea282bb",
+    "Paperie/Views/FiniteBook.swift": "fb586588526880db3e7addecb8395c7f46afaf3d77d3df5bc9b39f5406594960",
+    "Paperie/Views/HandDrawn.swift": "1328726f44fa38e6f0dd2d322be8dc44ef330ce5b2cf367cd184e7bbd9917a18",
+    "Paperie/Views/HandboundBook.swift": "f3a023de00e5b075d5cde3da01c7b54a115cfa9490182907d9c62e47f3b4d43a",
+    "Paperie/Views/HandwrittenTools.swift": "fe2c53c60272b85c36f987a67bb8cf0bc890b472b9a1be41930f13c89ea8a348",
+    "Paperie/Views/JournalPageView.swift": "d552e6e3a138124355ec8004c6ffb832a2b9f1986047f2f6021b24029a3f4eec",
+    "Paperie/Views/NotebookBinding.swift": "74c637f914e9d33b78744142238cb61317825ff69e89ff0dce36291ae2921fa5",
+    "Paperie/Views/NotebookCover.swift": "addf99cd70192eda2af10dd8ac55b30c5bb4f9fbb5617887535c0249b1adbcee",
+    "Paperie/Views/NotebookSheets.swift": "dad475f551ec571453160fb5cc57635ed23dc0bf64660f49ffc5f283b8c47cdc",
+    "Paperie/Views/NotebookStage.swift": "e33aacdde55509fb6eaf891e51255f63246a949261e2fac2b223e36d81418b99",
+    "Paperie/Views/NotebookToolsButton.swift": "e6817221ed226d8c975f5385582d9326212fae5250e48c7e6c865e9ced79f9b5",
+    "Paperie/Views/NotebookWelcome.swift": "1013cc39e05d000be6a2b6b85e0ae2e4d18be009809a3b8f0de111bf0e899671",
+    "Paperie/Views/PageCurl.swift": "d4460d39ab16aab621ed69c87d93c68b861d542e0dcc0e5c46765e8ea2ccff85",
+    "Paperie/Views/PaperPatina.swift": "7f34c22c00f4a6ae3c69790e1bc11bfdb9ab4bc8b96087d545810f3b6b2421de",
+    "Paperie/Views/PhysicalLeaf.swift": "962295a1ab61837a547249c2bb54a0af468b4ffd5d8991520bfdf4ddf2676d8a",
+    "Paperie/Views/StampArtwork.swift": "42abaac2565eb0f433c2112ddf866e62f5f64f7946dd21f21a9a4c6ce58634ce",
+    "Paperie/Views/StampSheet.swift": "bd54f28a616252b5ef3d4394372f62cfdd20950e5b8e9288213af64040f2dbcc",
+    "Paperie/Views/StationeryImages.swift": "2db65039b586cdabe6681ea1d5e3c29e539844a20f5f5821b078d1cfc45046cf",
+    "Paperie/Views/StationeryStyle.swift": "9ae50b117fba1ca293e23a521cdd741fa173b2d604d2461f15d25e3c81296afd",
+    "Paperie/Views/StickerArtwork.swift": "92c545a5f737309cf87e1577ce6131992febb9fa13f8c7e1a789b0b88c027ffa",
+    "Paperie/Views/StickerCropEditor.swift": "dc98a00c01157658904cc9e8859754422f5aa2640da28f53d64d09170aca5e5b",
+    "Paperie/Views/StickerMaterial.swift": "a9ee6d8962eee8cf17c5340e1ab0ef31fcfca24bbbe924beda18698c9de85ecb",
+    "Paperie/Views/StickerRemoval.swift": "e8df157a712b6cc5bb6c1fc499745b7eeb872014da0540a3f720a9ed5558954d",
+    "project.yml": "0bc7eee592ee6d721e040871f68c10ee3b7a89261a93f6c21aad27dd3ed5dc3c"
+  },
+  "source_files_sha256": "e75e4bd272f767ed25d3ecb635d20086258f347e472858f640ba26e1fd19c3e2",
+  "runs": {
+    "phone": {
+      "result_bundle": "/Users/ok/Documents/Codex/2026-10-07/continue-asympta-paperie-from-github-main/work/round37-beta-phone-r2.xcresult",
+      "result_info_sha256": "9220e9af438207ecb47a4dac4ee2e178b1c9c6fa6444d6e7c91ddc3a33a477e0",
+      "source_sidecar": "/Users/ok/Documents/Codex/2026-10-07/continue-asympta-paperie-from-github-main/work/round37-beta-phone-r2.source.json",
+      "source_sidecar_sha256": "b361d1d5877f9f1987981f7758e03cd050f319bb2eca1ffb37d53f60b5912934",
+      "summary": {
+        "devicesAndConfigurations": [
+          {
+            "device": {
+              "architecture": "arm64",
+              "deviceId": "3F3AE13E-C9ED-4FB0-BF8E-2BB6280CC316",
+              "deviceName": "Paperie-Build36-iPhone",
+              "modelName": "iPhone 12 Pro Max",
+              "osBuildNumber": "24A434",
+              "osVersion": "27.0",
+              "platform": "iOS Simulator"
+            },
+            "expectedFailures": 0,
+            "failedTests": 1,
+            "passedTests": 3,
+            "skippedTests": 0,
+            "testPlanConfiguration": {
+              "configurationId": "1",
+              "configurationName": "Test Scheme Action"
+            }
+          }
+        ],
+        "environmentDescription": "AsymptaPaperie \u00b7 Built with macOS 26.7",
+        "expectedFailures": 0,
+        "failedTests": 1,
+        "finishTime": 1791479169.552,
+        "passedTests": 3,
+        "result": "Failed",
+        "runtimeWarnings": [],
+        "skippedTests": 0,
+        "startTime": 1791478126.134,
+        "statistics": [],
+        "testFailures": [
+          {
+            "failureText": "Failed to tap \"Page actions\" Button: Timed out while synthesizing event.",
+            "targetName": "AsymptaPaperieUITests",
+            "testIdentifier": 4,
+            "testIdentifierString": "JournalFlowTests/testMemoryTucksBetweenLeavesOpensOnDemandRemovesUndoesAndReopens()",
+            "testIdentifierURL": "test://com.apple.xcode/AsymptaPaperie/AsymptaPaperieUITests/JournalFlowTests/testMemoryTucksBetweenLeavesOpensOnDemandRemovesUndoesAndReopens",
+            "testName": "testMemoryTucksBetweenLeavesOpensOnDemandRemovesUndoesAndReopens()"
+          }
+        ],
+        "title": "Test - AsymptaPaperie",
+        "topInsights": [],
+        "totalTestCount": 4
+      },
+      "passed_test_cases": [
+        "JournalFlowTests/testAppStoreCreativeCaptures()",
+        "JournalFlowTests/testAppStoreTraditionalChineseCaptures()",
+        "JournalFlowTests/testFiniteBookFinalBlankLeafClosesToInnerBackAndReturnsWithoutGrowing()"
+      ],
+      "test_filters": [
+        "AsymptaPaperieUITests/JournalFlowTests/testAppStoreCreativeCaptures",
+        "AsymptaPaperieUITests/JournalFlowTests/testAppStoreTraditionalChineseCaptures",
+        "AsymptaPaperieUITests/JournalFlowTests/testMemoryTucksBetweenLeavesOpensOnDemandRemovesUndoesAndReopens",
+        "AsymptaPaperieUITests/JournalFlowTests/testFiniteBookFinalBlankLeafClosesToInnerBackAndReturnsWithoutGrowing"
+      ],
+      "exit_code": 65,
+      "device": "phone",
+      "attachments_manifest_sha256": "8d36d59a2ecd9ca78104d34ce585bebfd7024d4f779e86f071113fff1ba2c784"
+    },
+    "ipad": {
+      "result_bundle": "/Users/ok/Documents/Codex/2026-10-07/continue-asympta-paperie-from-github-main/work/round37-beta-ipad.xcresult",
+      "result_info_sha256": "aaeac3cea4e8253702502c5e90a7ebcb7143fb9d10a415c614d2981ac55fb99d",
+      "source_sidecar": "/Users/ok/Documents/Codex/2026-10-07/continue-asympta-paperie-from-github-main/work/round37-beta-ipad.source.json",
+      "source_sidecar_sha256": "df2421362af4f2ffa5725b2cbcf64eed3ef9d45c965efbad3559477e14c68450",
+      "summary": {
+        "devicesAndConfigurations": [
+          {
+            "device": {
+              "architecture": "arm64",
+              "deviceId": "7ED3F24D-E1CD-4678-B059-0D4B63EDA320",
+              "deviceName": "Paperie-Build36-iPad",
+              "modelName": "iPad Pro 13-inch (M5)",
+              "osBuildNumber": "24A434",
+              "osVersion": "27.0",
+              "platform": "iOS Simulator"
+            },
+            "expectedFailures": 0,
+            "failedTests": 1,
+            "passedTests": 4,
+            "skippedTests": 0,
+            "testPlanConfiguration": {
+              "configurationId": "1",
+              "configurationName": "Test Scheme Action"
+            }
+          }
+        ],
+        "environmentDescription": "AsymptaPaperie \u00b7 Built with macOS 26.7",
+        "expectedFailures": 0,
+        "failedTests": 1,
+        "finishTime": 1791478089.188,
+        "passedTests": 4,
+        "result": "Failed",
+        "runtimeWarnings": [],
+        "skippedTests": 0,
+        "startTime": 1791477603.129,
+        "statistics": [],
+        "testFailures": [
+          {
+            "failureText": "XCTAssertEqual failed: (\"XCTWaiterResult(rawValue: 2)\") is not equal to (\"XCTWaiterResult(rawValue: 1)\") - The blank baseline needs a real valid native frame. Capture error: nil",
+            "targetName": "AsymptaPaperieUITests",
+            "testIdentifier": 5,
+            "testIdentifierString": "JournalFlowTests/testWiderBookNewPaperAcceptsInkOnBothLeavesAndSurvivesColdReopen()",
+            "testIdentifierURL": "test://com.apple.xcode/AsymptaPaperie/AsymptaPaperieUITests/JournalFlowTests/testWiderBookNewPaperAcceptsInkOnBothLeavesAndSurvivesColdReopen",
+            "testName": "testWiderBookNewPaperAcceptsInkOnBothLeavesAndSurvivesColdReopen()"
+          }
+        ],
+        "title": "Test - AsymptaPaperie",
+        "topInsights": [],
+        "totalTestCount": 5
+      },
+      "passed_test_cases": [
+        "JournalFlowTests/testAppStoreCreativeCaptures()",
+        "JournalFlowTests/testAppStoreTraditionalChineseCaptures()",
+        "JournalFlowTests/testFiniteBookFinalBlankLeafClosesToInnerBackAndReturnsWithoutGrowing()",
+        "JournalFlowTests/testMemoryTucksBetweenLeavesOpensOnDemandRemovesUndoesAndReopens()"
+      ],
+      "test_filters": [
+        "AsymptaPaperieUITests/JournalFlowTests/testWiderBookNewPaperAcceptsInkOnBothLeavesAndSurvivesColdReopen",
+        "AsymptaPaperieUITests/JournalFlowTests/testAppStoreCreativeCaptures",
+        "AsymptaPaperieUITests/JournalFlowTests/testAppStoreTraditionalChineseCaptures",
+        "AsymptaPaperieUITests/JournalFlowTests/testMemoryTucksBetweenLeavesOpensOnDemandRemovesUndoesAndReopens",
+        "AsymptaPaperieUITests/JournalFlowTests/testFiniteBookFinalBlankLeafClosesToInnerBackAndReturnsWithoutGrowing"
+      ],
+      "exit_code": 65,
+      "device": "ipad",
+      "attachments_manifest_sha256": "6191a69bab3136235756582d0665c659ea8ab01ecaf59d1aed4e364514acefc4"
+    },
+    "phone_memory": {
+      "result_bundle": "/Users/ok/Documents/Codex/2026-10-07/continue-asympta-paperie-from-github-main/work/round37-beta-memory-phone-r3.xcresult",
+      "result_info_sha256": "3f20cbcf272b381f59746b33556b1330b61d6995846778ac685f91377bface0a",
+      "source_sidecar": "/Users/ok/Documents/Codex/2026-10-07/continue-asympta-paperie-from-github-main/work/round37-beta-memory-phone-r3.source.json",
+      "source_sidecar_sha256": "10956b185dbe80a3023b3e531354100fd814b086837a13a777d971cf9b812adf",
+      "summary": {
+        "devicesAndConfigurations": [
+          {
+            "device": {
+              "architecture": "arm64",
+              "deviceId": "3F3AE13E-C9ED-4FB0-BF8E-2BB6280CC316",
+              "deviceName": "Paperie-Build36-iPhone",
+              "modelName": "iPhone 12 Pro Max",
+              "osBuildNumber": "24A434",
+              "osVersion": "27.0",
+              "platform": "iOS Simulator"
+            },
+            "expectedFailures": 0,
+            "failedTests": 0,
+            "passedTests": 1,
+            "skippedTests": 0,
+            "testPlanConfiguration": {
+              "configurationId": "1",
+              "configurationName": "Test Scheme Action"
+            }
+          }
+        ],
+        "environmentDescription": "AsymptaPaperie \u00b7 Built with macOS 26.7",
+        "expectedFailures": 0,
+        "failedTests": 0,
+        "finishTime": 1791492332.354,
+        "passedTests": 1,
+        "result": "Passed",
+        "runtimeWarnings": [],
+        "skippedTests": 0,
+        "startTime": 1791492249.651,
+        "statistics": [],
+        "testFailures": [],
+        "title": "Test - AsymptaPaperie",
+        "topInsights": [],
+        "totalTestCount": 1
+      },
+      "passed_test_cases": [
+        "JournalFlowTests/testMemoryTucksBetweenLeavesOpensOnDemandRemovesUndoesAndReopens()"
+      ],
+      "test_filters": [
+        "AsymptaPaperieUITests/JournalFlowTests/testMemoryTucksBetweenLeavesOpensOnDemandRemovesUndoesAndReopens"
+      ],
+      "exit_code": 0,
+      "device": "phone",
+      "attachments_manifest_sha256": "7bb943fb0c9a62d0837da03cbe238493810953ee14cf0a679b2a07b65e5e6357"
+    },
+    "phone_lifetime": {
+      "result_bundle": "/Users/ok/Documents/Codex/2026-10-07/continue-asympta-paperie-from-github-main/work/round37-beta-lifetime-phone.xcresult",
+      "result_info_sha256": "2ec9768c160ebe051ea75e9775b424fef1891c499999cfda55949855a18f6c66",
+      "source_sidecar": "/Users/ok/Documents/Codex/2026-10-07/continue-asympta-paperie-from-github-main/work/round37-beta-lifetime-phone.source.json",
+      "source_sidecar_sha256": "faaa3ce7e201ad2a1f0fb8cb12b178701cbeaf75aa9d7cff5bce8999220e42e5",
+      "summary": {
+        "devicesAndConfigurations": [
+          {
+            "device": {
+              "architecture": "arm64",
+              "deviceId": "3F3AE13E-C9ED-4FB0-BF8E-2BB6280CC316",
+              "deviceName": "Paperie-Build36-iPhone",
+              "modelName": "iPhone 12 Pro Max",
+              "osBuildNumber": "24A434",
+              "osVersion": "27.0",
+              "platform": "iOS Simulator"
+            },
+            "expectedFailures": 0,
+            "failedTests": 0,
+            "passedTests": 1,
+            "skippedTests": 0,
+            "testPlanConfiguration": {
+              "configurationId": "1",
+              "configurationName": "Test Scheme Action"
+            }
+          }
+        ],
+        "environmentDescription": "AsymptaPaperie \u00b7 Built with macOS 26.7",
+        "expectedFailures": 0,
+        "failedTests": 0,
+        "finishTime": 1791492534.867,
+        "passedTests": 1,
+        "result": "Passed",
+        "runtimeWarnings": [],
+        "skippedTests": 0,
+        "startTime": 1791492469.765,
+        "statistics": [],
+        "testFailures": [],
+        "title": "Test - AsymptaPaperie",
+        "topInsights": [],
+        "totalTestCount": 1
+      },
+      "passed_test_cases": [
+        "JournalFlowTests/testLifetimeReviewScreenshot()"
+      ],
+      "test_filters": [
+        "AsymptaPaperieUITests/JournalFlowTests/testLifetimeReviewScreenshot"
+      ],
+      "exit_code": 0,
+      "device": "phone",
+      "attachments_manifest_sha256": "870562cc52dfd646fd60f24a5a79a1e760a4a30628ec3974f1441505c20f6700"
+    }
+  },
+  "normalizer_source_sha256": "699b865fd288bd67d4a1ea2df87a7195b0923e46e876ac30faff641addd4a01b",
+  "screenshots": [
+    {
+      "file": "Lifetime-review.png",
+      "source_run": "phone_lifetime",
+      "source_test": "JournalFlowTests/testLifetimeReviewScreenshot()",
+      "source_attachment": "ED846A80-BFDA-4532-809E-0F9F60AAC2F1.png",
+      "source_result": "/Users/ok/Documents/Codex/2026-10-07/continue-asympta-paperie-from-github-main/work/round37-beta-lifetime-phone.xcresult",
+      "source_attachment_sha256": "dcc9ad1fd1badc2978ffbf96cff93072aa71e03421ce0313fbf3b05ab44f7a39",
+      "timestamp": 1791492534.097,
+      "normalization": "Lifetime-review.png 1284x2778; orientation flattened from 1; opaque sRGB",
+      "dimensions": [
+        1284,
+        2778
+      ],
+      "sha256": "37a838193523cc7dee6a5bdcda84e492eeb49c89225b3d5cd59e49bd1038f204"
+    },
+    {
+      "file": "en-US/ipad/01-journal.png",
+      "source_run": "ipad",
+      "source_test": "JournalFlowTests/testAppStoreCreativeCaptures()",
+      "source_attachment": "8BAABAA8-FEBA-4A64-BF07-C808DB6AB27B.png",
+      "source_result": "/Users/ok/Documents/Codex/2026-10-07/continue-asympta-paperie-from-github-main/work/round37-beta-ipad.xcresult",
+      "source_attachment_sha256": "18d42d661e6e5e8daee6f9b6f8b1965ccb253f354fb05ce91245771d51075932",
+      "timestamp": 1791477733.223,
+      "normalization": "en-US/ipad/01-journal.png 2752x2064; orientation flattened from 1; opaque sRGB",
+      "dimensions": [
+        2752,
+        2064
+      ],
+      "sha256": "c093a2f5922391ca2fdf377b791733a2fa7615b26abf0064f33e6a8e44bf7294"
+    },
+    {
+      "file": "en-US/ipad/03-cover.png",
+      "source_run": "ipad",
+      "source_test": "JournalFlowTests/testAppStoreCreativeCaptures()",
+      "source_attachment": "8C4E1047-5306-4FB5-822B-E2B1A76E47E1.png",
+      "source_result": "/Users/ok/Documents/Codex/2026-10-07/continue-asympta-paperie-from-github-main/work/round37-beta-ipad.xcresult",
+      "source_attachment_sha256": "b1dfc98fa707b2dd7d849bcf9042896b88690b75ba806c0bca12cea05f2c2a2e",
+      "timestamp": 1791477748.529,
+      "normalization": "en-US/ipad/03-cover.png 2752x2064; orientation flattened from 1; opaque sRGB",
+      "dimensions": [
+        2752,
+        2064
+      ],
+      "sha256": "2bf5ba63cc9091e49b058321cae5ee1100dab8df7d6da8669ceeaf344c86e8ac"
+    },
+    {
+      "file": "en-US/ipad/04-search.png",
+      "source_run": "ipad",
+      "source_test": "JournalFlowTests/testAppStoreCreativeCaptures()",
+      "source_attachment": "31711C86-15E8-4ABC-9380-A88BF4A50BC1.png",
+      "source_result": "/Users/ok/Documents/Codex/2026-10-07/continue-asympta-paperie-from-github-main/work/round37-beta-ipad.xcresult",
+      "source_attachment_sha256": "71e6931fd9ba9c190228bb473a26e2a99b4b65bd9fa5d0c44e578e04c8f1c713",
+      "timestamp": 1791477766.823,
+      "normalization": "en-US/ipad/04-search.png 2752x2064; orientation flattened from 1; opaque sRGB",
+      "dimensions": [
+        2752,
+        2064
+      ],
+      "sha256": "da2a5eab4ce2d01f7bdcf5fe652a9cbe661839511b32f41878591e0d9d9571d5"
+    },
+    {
+      "file": "en-US/ipad/05-between-pages.png",
+      "source_run": "ipad",
+      "source_test": "JournalFlowTests/testMemoryTucksBetweenLeavesOpensOnDemandRemovesUndoesAndReopens()",
+      "source_attachment": "E8D25EA7-7072-4916-9799-687D00081262.png",
+      "source_result": "/Users/ok/Documents/Codex/2026-10-07/continue-asympta-paperie-from-github-main/work/round37-beta-ipad.xcresult",
+      "source_attachment_sha256": "ec34f0956f6f22d91ce453fa57b982cbc8ef6054cb2b0062099288fd1d63a32b",
+      "timestamp": 1791477982.269,
+      "normalization": "en-US/ipad/05-between-pages.png 2064x2752; orientation flattened from 1; opaque sRGB",
+      "dimensions": [
+        2064,
+        2752
+      ],
+      "sha256": "89f2926e86ee2b847b8feb66d383ed68bf8cc3e69e10ee5db7c2c979246cdfca"
+    },
+    {
+      "file": "en-US/ipad/06-last-page.png",
+      "source_run": "ipad",
+      "source_test": "JournalFlowTests/testFiniteBookFinalBlankLeafClosesToInnerBackAndReturnsWithoutGrowing()",
+      "source_attachment": "F3290846-8B99-4A6F-A867-F11ECBEFE6AD.png",
+      "source_result": "/Users/ok/Documents/Codex/2026-10-07/continue-asympta-paperie-from-github-main/work/round37-beta-ipad.xcresult",
+      "source_attachment_sha256": "74eb2450d1a956b513cac50d81139c3933dbd1d1121a2263526b18f3519ae9bd",
+      "timestamp": 1791477896.385,
+      "normalization": "en-US/ipad/06-last-page.png 2064x2752; orientation flattened from 1; opaque sRGB",
+      "dimensions": [
+        2064,
+        2752
+      ],
+      "sha256": "fe7b1a7dd53c00eb2bf6909de92e8c7aa64612e0385d1d756ec4c7be7a5f09a0"
+    },
+    {
+      "file": "en-US/iphone/01-journal.png",
+      "source_run": "phone",
+      "source_test": "JournalFlowTests/testAppStoreCreativeCaptures()",
+      "source_attachment": "943E9CBF-7DFE-41D2-877F-DA65B0D6A50F.png",
+      "source_result": "/Users/ok/Documents/Codex/2026-10-07/continue-asympta-paperie-from-github-main/work/round37-beta-phone-r2.xcresult",
+      "source_attachment_sha256": "1a467daba0e3197b565dcdec9855d974dd3b0dd0a90095733ac3d9efafedf2b2",
+      "timestamp": 1791478194.837,
+      "normalization": "en-US/iphone/01-journal.png 1284x2778; orientation flattened from 1; opaque sRGB",
+      "dimensions": [
+        1284,
+        2778
+      ],
+      "sha256": "082a071c923dbba286c0cae972114aa08699310cf94d91dc029eca4927a8928c"
+    },
+    {
+      "file": "en-US/iphone/02-duo.png",
+      "source_run": "phone",
+      "source_test": "JournalFlowTests/testAppStoreCreativeCaptures()",
+      "source_attachment": "1B0E0D99-36C7-4ACF-BCA8-75C205CE326D.png",
+      "source_result": "/Users/ok/Documents/Codex/2026-10-07/continue-asympta-paperie-from-github-main/work/round37-beta-phone-r2.xcresult",
+      "source_attachment_sha256": "a3bb773a169d8b202636b7cef7a1e57feb50762e49bdd45e4890fda4c54b96ab",
+      "timestamp": 1791478215.999,
+      "normalization": "en-US/iphone/02-duo.png 2778x1284; orientation flattened from 1; opaque sRGB",
+      "dimensions": [
+        2778,
+        1284
+      ],
+      "sha256": "c7088ca506f99a0422567bdf32488df6285b68ac21b3d1cee614a824938ac987"
+    },
+    {
+      "file": "en-US/iphone/03-cover.png",
+      "source_run": "phone",
+      "source_test": "JournalFlowTests/testAppStoreCreativeCaptures()",
+      "source_attachment": "42A0385F-136B-417F-8A7C-4384D47ADA57.png",
+      "source_result": "/Users/ok/Documents/Codex/2026-10-07/continue-asympta-paperie-from-github-main/work/round37-beta-phone-r2.xcresult",
+      "source_attachment_sha256": "e35fa2c671702e085b3ae47fb0dc89be6316665da7c42407b97801fd9a4c41a9",
+      "timestamp": 1791478235.582,
+      "normalization": "en-US/iphone/03-cover.png 1284x2778; orientation flattened from 1; opaque sRGB",
+      "dimensions": [
+        1284,
+        2778
+      ],
+      "sha256": "dea7a3435f465eeda9dd7076a104d2a3804da3eb8b9c1a56da0d41cd262a2910"
+    },
+    {
+      "file": "en-US/iphone/04-search.png",
+      "source_run": "phone",
+      "source_test": "JournalFlowTests/testAppStoreCreativeCaptures()",
+      "source_attachment": "2CE9377B-4BB5-4AC7-9BC6-00AAEC85DEE5.png",
+      "source_result": "/Users/ok/Documents/Codex/2026-10-07/continue-asympta-paperie-from-github-main/work/round37-beta-phone-r2.xcresult",
+      "source_attachment_sha256": "db5250bc3fdd7f4e9522efb40b4421cf1c4eb9a02516e166103075acd5c452d8",
+      "timestamp": 1791478254.714,
+      "normalization": "en-US/iphone/04-search.png 1284x2778; orientation flattened from 1; opaque sRGB",
+      "dimensions": [
+        1284,
+        2778
+      ],
+      "sha256": "bb57167c461896a00c26a49bbf1de6061d04c1bd009e05763f05bbbf31b374b5"
+    },
+    {
+      "file": "en-US/iphone/05-between-pages.png",
+      "source_run": "phone_memory",
+      "source_test": "JournalFlowTests/testMemoryTucksBetweenLeavesOpensOnDemandRemovesUndoesAndReopens()",
+      "source_attachment": "DA1D5858-6DB4-41C4-BC16-D35F0E291828.png",
+      "source_result": "/Users/ok/Documents/Codex/2026-10-07/continue-asympta-paperie-from-github-main/work/round37-beta-memory-phone-r3.xcresult",
+      "source_attachment_sha256": "ca21537fbb04114c5d66220ed8ae3fff4a93839748d39635b931162a85754fe6",
+      "timestamp": 1791492303.211,
+      "normalization": "en-US/iphone/05-between-pages.png 1284x2778; orientation flattened from 1; opaque sRGB",
+      "dimensions": [
+        1284,
+        2778
+      ],
+      "sha256": "4dc00091dcf7f2a7002673e40b9ca1f805733590990b47fcbef36c3a7bc8ca4e"
+    },
+    {
+      "file": "en-US/iphone/06-last-page.png",
+      "source_run": "phone",
+      "source_test": "JournalFlowTests/testFiniteBookFinalBlankLeafClosesToInnerBackAndReturnsWithoutGrowing()",
+      "source_attachment": "8F865C43-532A-4C8E-9581-4426F8D93740.png",
+      "source_result": "/Users/ok/Documents/Codex/2026-10-07/continue-asympta-paperie-from-github-main/work/round37-beta-phone-r2.xcresult",
+      "source_attachment_sha256": "d2149218bde4514e7f88da192c8563deded8f1766c3dc4cdc938942dbebe9d76",
+      "timestamp": 1791478401.49,
+      "normalization": "en-US/iphone/06-last-page.png 1284x2778; orientation flattened from 1; opaque sRGB",
+      "dimensions": [
+        1284,
+        2778
+      ],
+      "sha256": "62265319fb16e5105999c0441b15ca1c0f5479851cdec3289bd7666f63ddda3d"
+    },
+    {
+      "file": "zh-Hant/ipad/01-journal.png",
+      "source_run": "ipad",
+      "source_test": "JournalFlowTests/testAppStoreTraditionalChineseCaptures()",
+      "source_attachment": "F187C25D-940A-40AE-BEC7-0A87A8386291.png",
+      "source_result": "/Users/ok/Documents/Codex/2026-10-07/continue-asympta-paperie-from-github-main/work/round37-beta-ipad.xcresult",
+      "source_attachment_sha256": "2490c4787c89b02032ab905e820ed96694737bb3116351fd7c499866f520c7e2",
+      "timestamp": 1791477822.714,
+      "normalization": "zh-Hant/ipad/01-journal.png 2752x2064; orientation flattened from 1; opaque sRGB",
+      "dimensions": [
+        2752,
+        2064
+      ],
+      "sha256": "2a24f05f0bcb11359e6e54810c024d6922c1b8e904b9e2da68c33746d8fbc5de"
+    },
+    {
+      "file": "zh-Hant/ipad/03-cover.png",
+      "source_run": "ipad",
+      "source_test": "JournalFlowTests/testAppStoreTraditionalChineseCaptures()",
+      "source_attachment": "24A2C559-812E-4BAE-95FD-7B275CA75445.png",
+      "source_result": "/Users/ok/Documents/Codex/2026-10-07/continue-asympta-paperie-from-github-main/work/round37-beta-ipad.xcresult",
+      "source_attachment_sha256": "032973cb2b952a0ad93f43e5dc563c73a9da717192d6aa3fc548a8a1a59bcac4",
+      "timestamp": 1791477837.862,
+      "normalization": "zh-Hant/ipad/03-cover.png 2752x2064; orientation flattened from 1; opaque sRGB",
+      "dimensions": [
+        2752,
+        2064
+      ],
+      "sha256": "39dfecf9c8579a679dc551a460731f0231c2101647dfb29def749c5dd6fd89e5"
+    },
+    {
+      "file": "zh-Hant/ipad/04-search.png",
+      "source_run": "ipad",
+      "source_test": "JournalFlowTests/testAppStoreTraditionalChineseCaptures()",
+      "source_attachment": "A09800E8-BFA4-4D12-9650-1ED257BB42F8.png",
+      "source_result": "/Users/ok/Documents/Codex/2026-10-07/continue-asympta-paperie-from-github-main/work/round37-beta-ipad.xcresult",
+      "source_attachment_sha256": "0c486b96380e5f241d8084ee02cf887ca2d399c9125ec04eda7189afc59bab7b",
+      "timestamp": 1791477852.33,
+      "normalization": "zh-Hant/ipad/04-search.png 2752x2064; orientation flattened from 1; opaque sRGB",
+      "dimensions": [
+        2752,
+        2064
+      ],
+      "sha256": "5296cd5358d143e6bc573f55929017341e321374b914990061d95bb08b10aa9b"
+    },
+    {
+      "file": "zh-Hant/iphone/01-journal.png",
+      "source_run": "phone",
+      "source_test": "JournalFlowTests/testAppStoreTraditionalChineseCaptures()",
+      "source_attachment": "C4FE98EC-236A-47F0-9A90-D1B15E81AFC8.png",
+      "source_result": "/Users/ok/Documents/Codex/2026-10-07/continue-asympta-paperie-from-github-main/work/round37-beta-phone-r2.xcresult",
+      "source_attachment_sha256": "784121e94ab9b98d484cf3f9d4790602905f432de63be2ac32ff92738e99c6f3",
+      "timestamp": 1791478301.713,
+      "normalization": "zh-Hant/iphone/01-journal.png 1284x2778; orientation flattened from 1; opaque sRGB",
+      "dimensions": [
+        1284,
+        2778
+      ],
+      "sha256": "26e373fd48508460609936dba91197477a0bf81d0dfd01e32cfbd23caba3a6a2"
+    },
+    {
+      "file": "zh-Hant/iphone/02-duo.png",
+      "source_run": "phone",
+      "source_test": "JournalFlowTests/testAppStoreTraditionalChineseCaptures()",
+      "source_attachment": "4A3440C7-5BD9-4954-8C86-EB0BF866EFEE.png",
+      "source_result": "/Users/ok/Documents/Codex/2026-10-07/continue-asympta-paperie-from-github-main/work/round37-beta-phone-r2.xcresult",
+      "source_attachment_sha256": "ce6421512e0e26f73a9f9e76786151b3de746e013651585f94e358fac0118c15",
+      "timestamp": 1791478321.759,
+      "normalization": "zh-Hant/iphone/02-duo.png 2778x1284; orientation flattened from 1; opaque sRGB",
+      "dimensions": [
+        2778,
+        1284
+      ],
+      "sha256": "0db5ffe4c768c08415b020f507ed57bf19edd00363977d560b874c02f0c66b87"
+    },
+    {
+      "file": "zh-Hant/iphone/03-cover.png",
+      "source_run": "phone",
+      "source_test": "JournalFlowTests/testAppStoreTraditionalChineseCaptures()",
+      "source_attachment": "896853BA-CE59-43AD-A4BA-3A89978022C4.png",
+      "source_result": "/Users/ok/Documents/Codex/2026-10-07/continue-asympta-paperie-from-github-main/work/round37-beta-phone-r2.xcresult",
+      "source_attachment_sha256": "522e43525f35495c7624b7b1dd79517bfa9bca574328321004366c52dfeadeea",
+      "timestamp": 1791478341.604,
+      "normalization": "zh-Hant/iphone/03-cover.png 1284x2778; orientation flattened from 1; opaque sRGB",
+      "dimensions": [
+        1284,
+        2778
+      ],
+      "sha256": "9f8c0f0f2ec8fb39fb897eb1500f3eb384554d3f1129a16d8cf710bb09a3b1f9"
+    },
+    {
+      "file": "zh-Hant/iphone/04-search.png",
+      "source_run": "phone",
+      "source_test": "JournalFlowTests/testAppStoreTraditionalChineseCaptures()",
+      "source_attachment": "13773B7D-4DEA-4B71-AB2D-F4170A623B60.png",
+      "source_result": "/Users/ok/Documents/Codex/2026-10-07/continue-asympta-paperie-from-github-main/work/round37-beta-phone-r2.xcresult",
+      "source_attachment_sha256": "669843204dcdd38caa5ce999010d7cc603ad9aaadd375626f10b366cd1bf8691",
+      "timestamp": 1791478358.034,
+      "normalization": "zh-Hant/iphone/04-search.png 1284x2778; orientation flattened from 1; opaque sRGB",
+      "dimensions": [
+        1284,
+        2778
+      ],
+      "sha256": "ba8f096d07f1fb81f487e84aae0c01ce04be63e1727f95d3f21c931d8f7c3b31"
+    }
+  ],
+  "note": "Genuine native screenshots from Passed test cases only. Mixed batch failures are preserved in each actual summary, not relabeled Passed. All 115 build/test input hashes match the exported IPA source. Only orientation and opaque PNG normalized; no resize or fabricated UI. Final-leaf test fixture uses four pages; production books have 365/366.",
+  "managed_files": {
+    "Lifetime-review.png": "37a838193523cc7dee6a5bdcda84e492eeb49c89225b3d5cd59e49bd1038f204",
+    "en-US/ipad/01-journal.png": "c093a2f5922391ca2fdf377b791733a2fa7615b26abf0064f33e6a8e44bf7294",
+    "en-US/ipad/03-cover.png": "2bf5ba63cc9091e49b058321cae5ee1100dab8df7d6da8669ceeaf344c86e8ac",
+    "en-US/ipad/04-search.png": "da2a5eab4ce2d01f7bdcf5fe652a9cbe661839511b32f41878591e0d9d9571d5",
+    "en-US/ipad/05-between-pages.png": "89f2926e86ee2b847b8feb66d383ed68bf8cc3e69e10ee5db7c2c979246cdfca",
+    "en-US/ipad/06-last-page.png": "fe7b1a7dd53c00eb2bf6909de92e8c7aa64612e0385d1d756ec4c7be7a5f09a0",
+    "en-US/iphone/01-journal.png": "082a071c923dbba286c0cae972114aa08699310cf94d91dc029eca4927a8928c",
+    "en-US/iphone/02-duo.png": "c7088ca506f99a0422567bdf32488df6285b68ac21b3d1cee614a824938ac987",
+    "en-US/iphone/03-cover.png": "dea7a3435f465eeda9dd7076a104d2a3804da3eb8b9c1a56da0d41cd262a2910",
+    "en-US/iphone/04-search.png": "bb57167c461896a00c26a49bbf1de6061d04c1bd009e05763f05bbbf31b374b5",
+    "en-US/iphone/05-between-pages.png": "4dc00091dcf7f2a7002673e40b9ca1f805733590990b47fcbef36c3a7bc8ca4e",
+    "en-US/iphone/06-last-page.png": "62265319fb16e5105999c0441b15ca1c0f5479851cdec3289bd7666f63ddda3d",
+    "zh-Hant/ipad/01-journal.png": "2a24f05f0bcb11359e6e54810c024d6922c1b8e904b9e2da68c33746d8fbc5de",
+    "zh-Hant/ipad/03-cover.png": "39dfecf9c8579a679dc551a460731f0231c2101647dfb29def749c5dd6fd89e5",
+    "zh-Hant/ipad/04-search.png": "5296cd5358d143e6bc573f55929017341e321374b914990061d95bb08b10aa9b",
+    "zh-Hant/iphone/01-journal.png": "26e373fd48508460609936dba91197477a0bf81d0dfd01e32cfbd23caba3a6a2",
+    "zh-Hant/iphone/02-duo.png": "0db5ffe4c768c08415b020f507ed57bf19edd00363977d560b874c02f0c66b87",
+    "zh-Hant/iphone/03-cover.png": "9f8c0f0f2ec8fb39fb897eb1500f3eb384554d3f1129a16d8cf710bb09a3b1f9",
+    "zh-Hant/iphone/04-search.png": "ba8f096d07f1fb81f487e84aae0c01ce04be63e1727f95d3f21c931d8f7c3b31"
+  }
+}

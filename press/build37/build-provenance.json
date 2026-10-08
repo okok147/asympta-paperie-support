@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "version": "1.0",
+  "build": "37",
+  "tested_commit": "75011ab1491ccf8543af571b4c134db72adc4685",
+  "source_files_sha256": "e75e4bd272f767ed25d3ecb635d20086258f347e472858f640ba26e1fd19c3e2",
+  "screenshots_provenance_sha256": "0db3f744fce2d9ee77faba0d86854c18dbaf53120449a48b8c093c026edf6f9e",
+  "hero_sha256": "fc9f2c1153d957a0d7d28d43fde27e6671b520d28589e37c11de08e2a2bf8830",
+  "hero_dimensions": [
+    5244,
+    2950
+  ],
+  "testflight": {
+    "buildId": "758810f2-861a-4803-b19d-970f445ee44d",
+    "buildNumber": "37",
+    "version": "1.0",
+    "ipa_sha256": "9d329f5b42f5de24de1892d30edf717c4ee90016191de16936c3ffad96b39dd7",
+    "processingState": "VALID",
+    "internalBuildState": "IN_BETA_TESTING",
+    "internalGroupId": "522315cb-e62e-4a02-add4-b95aadec34b2",
+    "groupMembershipVerified": true,
+    "groupIds": [
+      "522315cb-e62e-4a02-add4-b95aadec34b2"
+    ]
+  },
+  "local_staging": true,
+  "managed_files": {
+    "Paperie-Notebook-Cover-Universal.png": "fc9f2c1153d957a0d7d28d43fde27e6671b520d28589e37c11de08e2a2bf8830",
+    "index.html": "ba8dd77cd65df05e478860cdb6b2bc7b5d3d00ab6d6a55f961ec4160080950c6",
+    "screenshots/Lifetime-review.png": "37a838193523cc7dee6a5bdcda84e492eeb49c89225b3d5cd59e49bd1038f204",
+    "screenshots/en-US/ipad/01-journal.png": "c093a2f5922391ca2fdf377b791733a2fa7615b26abf0064f33e6a8e44bf7294",
+    "screenshots/en-US/ipad/03-cover.png": "2bf5ba63cc9091e49b058321cae5ee1100dab8df7d6da8669ceeaf344c86e8ac",
+    "screenshots/en-US/ipad/04-search.png": "da2a5eab4ce2d01f7bdcf5fe652a9cbe661839511b32f41878591e0d9d9571d5",
+    "screenshots/en-US/ipad/05-between-pages.png": "89f2926e86ee2b847b8feb66d383ed68bf8cc3e69e10ee5db7c2c979246cdfca",
+    "screenshots/en-US/ipad/06-last-page.png": "fe7b1a7dd53c00eb2bf6909de92e8c7aa64612e0385d1d756ec4c7be7a5f09a0",
+    "screenshots/en-US/iphone/01-journal.png": "082a071c923dbba286c0cae972114aa08699310cf94d91dc029eca4927a8928c",
+    "screenshots/en-US/iphone/02-duo.png": "c7088ca506f99a0422567bdf32488df6285b68ac21b3d1cee614a824938ac987",
+    "screenshots/en-US/iphone/03-cover.png": "dea7a3435f465eeda9dd7076a104d2a3804da3eb8b9c1a56da0d41cd262a2910",
+    "screenshots/en-US/iphone/04-search.png": "bb57167c461896a00c26a49bbf1de6061d04c1bd009e05763f05bbbf31b374b5",
+    "screenshots/en-US/iphone/05-between-pages.png": "4dc00091dcf7f2a7002673e40b9ca1f805733590990b47fcbef36c3a7bc8ca4e",
+    "screenshots/en-US/iphone/06-last-page.png": "62265319fb16e5105999c0441b15ca1c0f5479851cdec3289bd7666f63ddda3d",
+    "screenshots/provenance.json": "0db3f744fce2d9ee77faba0d86854c18dbaf53120449a48b8c093c026edf6f9e",
+    "screenshots/zh-Hant/ipad/01-journal.png": "2a24f05f0bcb11359e6e54810c024d6922c1b8e904b9e2da68c33746d8fbc5de",
+    "screenshots/zh-Hant/ipad/03-cover.png": "39dfecf9c8579a679dc551a460731f0231c2101647dfb29def749c5dd6fd89e5",
+    "screenshots/zh-Hant/ipad/04-search.png": "5296cd5358d143e6bc573f55929017341e321374b914990061d95bb08b10aa9b",
+    "screenshots/zh-Hant/iphone/01-journal.png": "26e373fd48508460609936dba91197477a0bf81d0dfd01e32cfbd23caba3a6a2",
+    "screenshots/zh-Hant/iphone/02-duo.png": "0db5ffe4c768c08415b020f507ed57bf19edd00363977d560b874c02f0c66b87",
+    "screenshots/zh-Hant/iphone/03-cover.png": "9f8c0f0f2ec8fb39fb897eb1500f3eb384554d3f1129a16d8cf710bb09a3b1f9",
+    "screenshots/zh-Hant/iphone/04-search.png": "ba8f096d07f1fb81f487e84aae0c01ce04be63e1727f95d3f21c931d8f7c3b31"
+  }
+}
