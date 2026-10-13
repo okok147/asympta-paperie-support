@@ -1,0 +1,127 @@
+{
+  "version": 1,
+  "provider": "Asympta Paperie",
+  "updated": "2026-10-13",
+  "entries": [
+    {
+      "id": "ap1-f01",
+      "category": "funny",
+      "chinese": "待辦事項有點長，先把茶沖好。",
+      "english": "A long list. A properly brewed cup first."
+    },
+    {
+      "id": "ap1-f02",
+      "category": "funny",
+      "chinese": "這頁沒有塗歪，只是風有點大。",
+      "english": "The line isn't crooked. It caught a little breeze."
+    },
+    {
+      "id": "ap1-f03",
+      "category": "funny",
+      "chinese": "今天的靈感，躲在餅乾罐裡。",
+      "english": "Today's bright idea is hiding in the biscuit tin."
+    },
+    {
+      "id": "ap1-f04",
+      "category": "funny",
+      "chinese": "空白也佔一頁，算我有寫。",
+      "english": "A blank page still counts as a page."
+    },
+    {
+      "id": "ap1-i01",
+      "category": "inspiring",
+      "chinese": "窗邊那片光，值得留一小格。",
+      "english": "Leave a little square for the light by the window."
+    },
+    {
+      "id": "ap1-i02",
+      "category": "inspiring",
+      "chinese": "把路上看見的藍，帶回這一頁。",
+      "english": "Bring the blue you noticed home to this page."
+    },
+    {
+      "id": "ap1-i03",
+      "category": "inspiring",
+      "chinese": "今天普通的一刻，明天可能很珍貴。",
+      "english": "An ordinary moment today may be a treasure tomorrow."
+    },
+    {
+      "id": "ap1-i04",
+      "category": "inspiring",
+      "chinese": "先收下一片葉，再想故事的名字。",
+      "english": "Keep the leaf. Let the story find its name."
+    },
+    {
+      "id": "ap1-m01",
+      "category": "motivational",
+      "chinese": "不用寫滿，寫下第一行就好。",
+      "english": "No need to fill the page. Start with one line."
+    },
+    {
+      "id": "ap1-m02",
+      "category": "motivational",
+      "chinese": "記下最小的一步，給它一個位置。",
+      "english": "Give the smallest next step a place on the page."
+    },
+    {
+      "id": "ap1-m03",
+      "category": "motivational",
+      "chinese": "做完一件小事，再畫一個小圈。",
+      "english": "One small thing done. One little circle drawn."
+    },
+    {
+      "id": "ap1-m04",
+      "category": "motivational",
+      "chinese": "今天能做多少，就從那裡開始。",
+      "english": "Begin with what you can do today."
+    },
+    {
+      "id": "ap1-b01",
+      "category": "blessings",
+      "chinese": "願你回家時，還有一盞暖燈。",
+      "english": "May a warm light be waiting when you get home."
+    },
+    {
+      "id": "ap1-b02",
+      "category": "blessings",
+      "chinese": "願今天的茶，剛好不燙口。",
+      "english": "May today's tea be just cool enough to sip."
+    },
+    {
+      "id": "ap1-b03",
+      "category": "blessings",
+      "chinese": "願忙碌之間，有一小段自己的時間。",
+      "english": "May there be a little time that is yours between busy moments."
+    },
+    {
+      "id": "ap1-b04",
+      "category": "blessings",
+      "chinese": "願這頁收好一件小小的好事。",
+      "english": "May this page keep one small good thing."
+    },
+    {
+      "id": "ap1-a01",
+      "category": "affirmations",
+      "chinese": "這一頁，由我決定怎樣留下。",
+      "english": "I decide what this page will keep."
+    },
+    {
+      "id": "ap1-a02",
+      "category": "affirmations",
+      "chinese": "我可以把沒做完的事，留到明天。",
+      "english": "I can leave unfinished things for tomorrow."
+    },
+    {
+      "id": "ap1-a03",
+      "category": "affirmations",
+      "chinese": "我的字不必整齊，故事也值得被記下。",
+      "english": "My story belongs here, even when my letters wander."
+    },
+    {
+      "id": "ap1-a04",
+      "category": "affirmations",
+      "chinese": "我可以歇一會，再翻下一頁。",
+      "english": "I can rest a little before the next page."
+    }
+  ]
+}
