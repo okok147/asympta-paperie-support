@@ -1,127 +1,223 @@
 {
-  "version": 1,
-  "provider": "Asympta Paperie",
+  "version": 2,
+  "provider": "Asympta Paperie historical-text selection",
   "updated": "2026-10-13",
   "entries": [
     {
-      "id": "ap1-f01",
+      "id": "hist2-funny-zh-01",
       "category": "funny",
-      "chinese": "待辦事項有點長，先把茶沖好。",
-      "english": "A long list. A properly brewed cup first."
+      "text": "兒童相見不相識，笑問客從何處來。",
+      "language": "zh-Hant",
+      "author": "賀知章",
+      "work": "回鄉偶書·其一",
+      "sourceURL": "https://raw.githubusercontent.com/chinese-poetry/chinese-poetry/b8594f81a89752241442f2ce267d6f66f96704ee/%E8%92%99%E5%AD%A6/tangshisanbaishou.json"
     },
     {
-      "id": "ap1-f02",
+      "id": "hist2-funny-zh-02",
       "category": "funny",
-      "chinese": "這頁沒有塗歪，只是風有點大。",
-      "english": "The line isn't crooked. It caught a little breeze."
+      "text": "晚來天欲雪，能飲一杯無？",
+      "language": "zh-Hant",
+      "author": "白居易",
+      "work": "問劉十九",
+      "sourceURL": "https://raw.githubusercontent.com/chinese-poetry/chinese-poetry/b8594f81a89752241442f2ce267d6f66f96704ee/%E8%92%99%E5%AD%A6/tangshisanbaishou.json"
     },
     {
-      "id": "ap1-f03",
+      "id": "hist2-inspiring-zh-01",
+      "category": "inspiring",
+      "text": "行到水窮處，坐看雲起時。",
+      "language": "zh-Hant",
+      "author": "王維",
+      "work": "終南別業",
+      "sourceURL": "https://raw.githubusercontent.com/chinese-poetry/chinese-poetry/b8594f81a89752241442f2ce267d6f66f96704ee/%E8%92%99%E5%AD%A6/tangshisanbaishou.json"
+    },
+    {
+      "id": "hist2-inspiring-zh-02",
+      "category": "inspiring",
+      "text": "會當凌絕頂，一覽衆山小。",
+      "language": "zh-Hant",
+      "author": "杜甫",
+      "work": "望嶽",
+      "sourceURL": "https://raw.githubusercontent.com/chinese-poetry/chinese-poetry/b8594f81a89752241442f2ce267d6f66f96704ee/%E8%92%99%E5%AD%A6/tangshisanbaishou.json"
+    },
+    {
+      "id": "hist2-motivational-zh-01",
+      "category": "motivational",
+      "text": "欲窮千里目，更上一層樓。",
+      "language": "zh-Hant",
+      "author": "王之渙",
+      "work": "登鸛雀樓",
+      "sourceURL": "https://raw.githubusercontent.com/chinese-poetry/chinese-poetry/b8594f81a89752241442f2ce267d6f66f96704ee/%E8%92%99%E5%AD%A6/tangshisanbaishou.json"
+    },
+    {
+      "id": "hist2-motivational-zh-02",
+      "category": "motivational",
+      "text": "長風破浪會有時，直掛雲帆濟滄海。",
+      "language": "zh-Hant",
+      "author": "李白",
+      "work": "行路難·金樽清酒鬥十千",
+      "sourceURL": "https://raw.githubusercontent.com/chinese-poetry/chinese-poetry/b8594f81a89752241442f2ce267d6f66f96704ee/%E8%92%99%E5%AD%A6/tangshisanbaishou.json"
+    },
+    {
+      "id": "hist2-blessings-zh-01",
+      "category": "blessings",
+      "text": "海內存知己，天涯若比鄰。",
+      "language": "zh-Hant",
+      "author": "王勃",
+      "work": "送杜少府之任蜀州",
+      "sourceURL": "https://raw.githubusercontent.com/chinese-poetry/chinese-poetry/b8594f81a89752241442f2ce267d6f66f96704ee/%E8%92%99%E5%AD%A6/tangshisanbaishou.json"
+    },
+    {
+      "id": "hist2-blessings-zh-02",
+      "category": "blessings",
+      "text": "願君多采擷，此物最相思。",
+      "language": "zh-Hant",
+      "author": "王維",
+      "work": "相思",
+      "sourceURL": "https://raw.githubusercontent.com/chinese-poetry/chinese-poetry/b8594f81a89752241442f2ce267d6f66f96704ee/%E8%92%99%E5%AD%A6/tangshisanbaishou.json"
+    },
+    {
+      "id": "hist2-affirmations-zh-01",
+      "category": "affirmations",
+      "text": "天生我材必有用，千金散盡還復來。",
+      "language": "zh-Hant",
+      "author": "李白",
+      "work": "將進酒",
+      "sourceURL": "https://raw.githubusercontent.com/chinese-poetry/chinese-poetry/b8594f81a89752241442f2ce267d6f66f96704ee/%E8%92%99%E5%AD%A6/tangshisanbaishou.json"
+    },
+    {
+      "id": "hist2-affirmations-zh-02",
+      "category": "affirmations",
+      "text": "興來每獨往，勝事空自知。",
+      "language": "zh-Hant",
+      "author": "王維",
+      "work": "終南別業",
+      "sourceURL": "https://raw.githubusercontent.com/chinese-poetry/chinese-poetry/b8594f81a89752241442f2ce267d6f66f96704ee/%E8%92%99%E5%AD%A6/tangshisanbaishou.json"
+    },
+    {
+      "id": "hist2-literature-zh-01",
+      "category": "literature",
+      "text": "深林人不知，明月來相照。",
+      "language": "zh-Hant",
+      "author": "王維",
+      "work": "竹裏館",
+      "sourceURL": "https://raw.githubusercontent.com/chinese-poetry/chinese-poetry/b8594f81a89752241442f2ce267d6f66f96704ee/%E8%92%99%E5%AD%A6/tangshisanbaishou.json"
+    },
+    {
+      "id": "hist2-literature-zh-02",
+      "category": "literature",
+      "text": "春眠不覺曉，處處聞啼鳥。",
+      "language": "zh-Hant",
+      "author": "孟浩然",
+      "work": "春曉",
+      "sourceURL": "https://raw.githubusercontent.com/chinese-poetry/chinese-poetry/b8594f81a89752241442f2ce267d6f66f96704ee/%E8%92%99%E5%AD%A6/tangshisanbaishou.json"
+    },
+    {
+      "id": "hist2-funny-en-01",
       "category": "funny",
-      "chinese": "今天的靈感，躲在餅乾罐裡。",
-      "english": "Today's bright idea is hiding in the biscuit tin."
+      "text": "Curiouser and curiouser!",
+      "language": "en",
+      "author": "Lewis Carroll",
+      "work": "Alice’s Adventures in Wonderland · Chapter II",
+      "sourceURL": "https://www.gutenberg.org/files/11/11-h/11-h.htm"
     },
     {
-      "id": "ap1-f04",
+      "id": "hist2-funny-en-02",
       "category": "funny",
-      "chinese": "空白也佔一頁，算我有寫。",
-      "english": "A blank page still counts as a page."
+      "text": "Everybody has won, and all must have prizes.",
+      "language": "en",
+      "author": "Lewis Carroll",
+      "work": "Alice’s Adventures in Wonderland · Chapter III",
+      "sourceURL": "https://www.gutenberg.org/files/11/11-h/11-h.htm"
     },
     {
-      "id": "ap1-i01",
+      "id": "hist2-inspiring-en-01",
       "category": "inspiring",
-      "chinese": "窗邊那片光，值得留一小格。",
-      "english": "Leave a little square for the light by the window."
+      "text": "To affect the quality of the day",
+      "language": "en",
+      "author": "Henry David Thoreau",
+      "work": "Walden · Where I Lived, and What I Lived For",
+      "sourceURL": "https://www.gutenberg.org/files/205/205-h/205-h.htm"
     },
     {
-      "id": "ap1-i02",
+      "id": "hist2-inspiring-en-02",
       "category": "inspiring",
-      "chinese": "把路上看見的藍，帶回這一頁。",
-      "english": "Bring the blue you noticed home to this page."
+      "text": "Morning is when I am awake and there is a dawn in me.",
+      "language": "en",
+      "author": "Henry David Thoreau",
+      "work": "Walden · Where I Lived, and What I Lived For",
+      "sourceURL": "https://www.gutenberg.org/files/205/205-h/205-h.htm"
     },
     {
-      "id": "ap1-i03",
-      "category": "inspiring",
-      "chinese": "今天普通的一刻，明天可能很珍貴。",
-      "english": "An ordinary moment today may be a treasure tomorrow."
-    },
-    {
-      "id": "ap1-i04",
-      "category": "inspiring",
-      "chinese": "先收下一片葉，再想故事的名字。",
-      "english": "Keep the leaf. Let the story find its name."
-    },
-    {
-      "id": "ap1-m01",
+      "id": "hist2-motivational-en-01",
       "category": "motivational",
-      "chinese": "不用寫滿，寫下第一行就好。",
-      "english": "No need to fill the page. Start with one line."
+      "text": "the best way to explain it is to do it.",
+      "language": "en",
+      "author": "Lewis Carroll",
+      "work": "Alice’s Adventures in Wonderland · Chapter III",
+      "sourceURL": "https://www.gutenberg.org/files/11/11-h/11-h.htm"
     },
     {
-      "id": "ap1-m02",
+      "id": "hist2-motivational-en-02",
       "category": "motivational",
-      "chinese": "記下最小的一步，給它一個位置。",
-      "english": "Give the smallest next step a place on the page."
+      "text": "Follow your genius closely enough",
+      "language": "en",
+      "author": "Henry David Thoreau",
+      "work": "Walden · Sounds",
+      "sourceURL": "https://www.gutenberg.org/files/205/205-h/205-h.htm"
     },
     {
-      "id": "ap1-m03",
-      "category": "motivational",
-      "chinese": "做完一件小事，再畫一個小圈。",
-      "english": "One small thing done. One little circle drawn."
-    },
-    {
-      "id": "ap1-m04",
-      "category": "motivational",
-      "chinese": "今天能做多少，就從那裡開始。",
-      "english": "Begin with what you can do today."
-    },
-    {
-      "id": "ap1-b01",
+      "id": "hist2-blessings-en-01",
       "category": "blessings",
-      "chinese": "願你回家時，還有一盞暖燈。",
-      "english": "May a warm light be waiting when you get home."
+      "text": "Sleep dwell upon thine eyes, peace in thy breast.",
+      "language": "en",
+      "author": "William Shakespeare",
+      "work": "Romeo and Juliet · Act II, Scene II · Romeo",
+      "sourceURL": "https://www.gutenberg.org/cache/epub/1513/pg1513-images.html"
     },
     {
-      "id": "ap1-b02",
+      "id": "hist2-blessings-en-02",
       "category": "blessings",
-      "chinese": "願今天的茶，剛好不燙口。",
-      "english": "May today's tea be just cool enough to sip."
+      "text": "A thousand times good night.",
+      "language": "en",
+      "author": "William Shakespeare",
+      "work": "Romeo and Juliet · Act II, Scene II · Juliet",
+      "sourceURL": "https://www.gutenberg.org/cache/epub/1513/pg1513-images.html"
     },
     {
-      "id": "ap1-b03",
-      "category": "blessings",
-      "chinese": "願忙碌之間，有一小段自己的時間。",
-      "english": "May there be a little time that is yours between busy moments."
-    },
-    {
-      "id": "ap1-b04",
-      "category": "blessings",
-      "chinese": "願這頁收好一件小小的好事。",
-      "english": "May this page keep one small good thing."
-    },
-    {
-      "id": "ap1-a01",
+      "id": "hist2-affirmations-en-01",
       "category": "affirmations",
-      "chinese": "這一頁，由我決定怎樣留下。",
-      "english": "I decide what this page will keep."
+      "text": "I love a broad margin to my life.",
+      "language": "en",
+      "author": "Henry David Thoreau",
+      "work": "Walden · Sounds",
+      "sourceURL": "https://www.gutenberg.org/files/205/205-h/205-h.htm"
     },
     {
-      "id": "ap1-a02",
+      "id": "hist2-affirmations-en-02",
       "category": "affirmations",
-      "chinese": "我可以把沒做完的事，留到明天。",
-      "english": "I can leave unfinished things for tomorrow."
+      "text": "No rack can torture me,\nMy soul's at liberty",
+      "language": "en",
+      "author": "Emily Dickinson",
+      "work": "Poems: Three Series, Complete · First Series · Life · XXXV · Emancipation",
+      "sourceURL": "https://www.gutenberg.org/files/12242/12242-h/12242-h.htm"
     },
     {
-      "id": "ap1-a03",
-      "category": "affirmations",
-      "chinese": "我的字不必整齊，故事也值得被記下。",
-      "english": "My story belongs here, even when my letters wander."
+      "id": "hist2-literature-en-01",
+      "category": "literature",
+      "text": "Hope is the thing with feathers\nThat perches in the soul,",
+      "language": "en",
+      "author": "Emily Dickinson",
+      "work": "Poems: Three Series, Complete · Second Series · Life · VI · Hope",
+      "sourceURL": "https://www.gutenberg.org/files/12242/12242-h/12242-h.htm"
     },
     {
-      "id": "ap1-a04",
-      "category": "affirmations",
-      "chinese": "我可以歇一會，再翻下一頁。",
-      "english": "I can rest a little before the next page."
+      "id": "hist2-literature-en-02",
+      "category": "literature",
+      "text": "The brain is wider than the sky,",
+      "language": "en",
+      "author": "Emily Dickinson",
+      "work": "Poems: Three Series, Complete · Third Series · Life · XLIII · The Brain",
+      "sourceURL": "https://www.gutenberg.org/files/12242/12242-h/12242-h.htm"
     }
   ]
 }
